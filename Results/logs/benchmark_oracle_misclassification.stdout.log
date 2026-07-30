@@ -1,0 +1,10 @@
+======================================================================
+Oracle misclassification on 2D-oscillator deflation (sigma=0.02, 30 seeds, d=4)
+======================================================================
+                generator  n_trials  n_misclassified                           status_modes  misclassification_rate
+x*vy-y*vx (ang. momentum)        30                0                       {'FEASIBLE': 30}                0.000000
+   x*y+vx*vy (cross term)        30                0                       {'FEASIBLE': 30}                0.000000
+      x^2+vx^2 (x-energy)        30                6 {'FEASIBLE': 24, 'HARD_INFEASIBLE': 6}                0.200000
+      y^2+vy^2 (y-energy)        30                1 {'FEASIBLE': 29, 'HARD_INFEASIBLE': 1}                0.033333
+
+Saved to Results/oracle_misclassification_{full,summary}.csv

@@ -1,0 +1,4 @@
+problem,null_red_mean,null_red_std,st_red_mean,st_red_std,ad_red_mean,ad_red_std,dense_red_mean,dense_red_std,srgb_red_mean,srgb_red_std,null_rec_mean,st_rec_mean,ad_rec_mean,dense_rec_mean,srgb_rec_mean,null_fdr_mean,st_fdr_mean,ad_fdr_mean,dense_fdr_mean,srgb_fdr_mean
+Circle,1.0,0.0,4.0,0.0,,,1.0,0.0,1.0,0.0,3.0166980025114755e-17,3.0166980025114755e-17,,3.0166980025114755e-17,3.0166980025114755e-17,0.0,0.75,,0.0,0.0
+Cubic,1.0,0.0,8.0,0.0,,,1.0,0.0,1.0,0.0,5.000162001580142e-13,0.47017449405451744,,1.0000324003160283e-12,1.0000324003160283e-12,0.0,0.875,,0.0,0.0
+Sphere,1.0,0.0,7.0,0.0,,,1.0,0.0,1.0,0.0,5.614101776056184e-17,5.614101776056184e-17,,5.614101776056184e-17,5.614101776056184e-17,0.0,0.8571428571428571,,0.0,0.0

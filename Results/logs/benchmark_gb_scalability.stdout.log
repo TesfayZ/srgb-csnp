@@ -1,0 +1,9 @@
+n= 4 D=2 M= 15 k=1: median 0.002s over 3 instances (0 timed out at 120s)
+n= 6 D=2 M= 28 k=2: median 0.005s over 3 instances (0 timed out at 120s)
+n= 8 D=2 M= 45 k=3: median 0.099s over 3 instances (0 timed out at 120s)
+n=10 D=2 M= 66 k=4: median 0.031s over 3 instances (0 timed out at 120s)
+n=12 D=2 M= 91 k=5: median 0.144s over 1 instances (2 timed out at 120s)
+n= 8 D=3 M=165 k=2: median 0.006s over 3 instances (0 timed out at 120s)
+n=10 D=3 M=286 k=3: median 0.178s over 3 instances (0 timed out at 120s)
+
+Saved to Results/gb_scalability.csv

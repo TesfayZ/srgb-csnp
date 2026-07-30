@@ -1,0 +1,24 @@
+AR(1) correlated-noise circle ablation (N=5000, 30 seeds, phi in [0.0, 0.5, 0.9], sigma in [0.02, 0.05, 0.1])
+phi=0.0 sigma=0.02: 30/30 exact
+phi=0.0 sigma=0.05: 30/30 exact
+phi=0.0 sigma=0.10: 30/30 exact
+phi=0.5 sigma=0.02: 30/30 exact
+phi=0.5 sigma=0.05: 30/30 exact
+phi=0.5 sigma=0.10: 30/30 exact
+phi=0.9 sigma=0.02: 30/30 exact
+phi=0.9 sigma=0.05: 30/30 exact
+phi=0.9 sigma=0.10: 29/30 exact
+
+=== Exact recovery rates ===
+ phi  sigma  exact_rate  mean_generators  mean_time   ci_low  ci_high
+ 0.0   0.02    1.000000              1.0   0.031438 0.886487 1.000000
+ 0.0   0.05    1.000000              1.0   0.029453 0.886487 1.000000
+ 0.0   0.10    1.000000              1.0   0.023202 0.886487 1.000000
+ 0.5   0.02    1.000000              1.0   0.023903 0.886487 1.000000
+ 0.5   0.05    1.000000              1.0   0.024941 0.886487 1.000000
+ 0.5   0.10    1.000000              1.0   0.024914 0.886487 1.000000
+ 0.9   0.02    1.000000              1.0   0.033889 0.886487 1.000000
+ 0.9   0.05    1.000000              1.0   0.056543 0.886487 1.000000
+ 0.9   0.10    0.966667              1.0   0.065853 0.833296 0.994091
+
+Saved to Results/ablation_noise_ar1_circle_*.csv

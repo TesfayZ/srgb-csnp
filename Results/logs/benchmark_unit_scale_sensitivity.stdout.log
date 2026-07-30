@@ -1,0 +1,55 @@
+
+=== circle / baseline ===
+  30 seeds in 2.6s
+
+=== circle / rescaled ===
+  30 seeds in 4.8s
+
+=== circle / standardized ===
+  30 seeds in 2.8s
+
+=== oscillator_fixed_dt / baseline ===
+  30 seeds in 13.5s
+
+=== oscillator_fixed_dt / rescaled ===
+  30 seeds in 12.1s
+
+=== oscillator_fixed_dt / standardized ===
+  30 seeds in 12.3s
+
+=== kepler_angular_momentum / baseline ===
+  30 seeds in 12.3s
+
+=== kepler_angular_momentum / rescaled ===
+  30 seeds in 12.5s
+
+=== kepler_angular_momentum / standardized ===
+  30 seeds in 10.9s
+
+=== feynman_I.12.2 / baseline ===
+  30 seeds in 5.3s
+
+=== feynman_I.12.2 / rescaled ===
+  30 seeds in 3.9s
+
+=== feynman_I.12.2 / standardized ===
+  30 seeds in 6.5s
+
+======================================================================
+Unit scale sensitivity summary
+======================================================================
+              benchmark    condition  rate  n   ci_low  ci_high
+                 circle     baseline   1.0 30 0.886487 1.000000
+                 circle     rescaled   0.0 30 0.000000 0.113513
+                 circle standardized   0.0 30 0.000000 0.113513
+         feynman_I.12.2     baseline   1.0 30 0.886487 1.000000
+         feynman_I.12.2     rescaled   0.0 30 0.000000 0.113513
+         feynman_I.12.2 standardized   0.0 30 0.000000 0.113513
+kepler_angular_momentum     baseline   1.0 30 0.886487 1.000000
+kepler_angular_momentum     rescaled   1.0 30 0.886487 1.000000
+kepler_angular_momentum standardized   0.0 30 0.000000 0.113513
+    oscillator_fixed_dt     baseline   1.0 30 0.886487 1.000000
+    oscillator_fixed_dt     rescaled   0.0 30 0.000000 0.113513
+    oscillator_fixed_dt standardized   0.0 30 0.000000 0.113513
+
+Saved to Results/unit_scale_sensitivity_*.csv

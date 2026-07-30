@@ -1,0 +1,552 @@
+% Automatically generated tables by generate_result_tables.py
+% Run: python generate_result_tables.py
+
+\documentclass{article}
+\usepackage{booktabs}
+\begin{document}
+
+% Computational-cost table is hardcoded in the paper.
+% For runtime measurements, see runtime_breakdown_summary.csv
+
+% Redundancy elimination (tab:synthetic)
+\begin{table}[ht]
+\centering
+\caption{Redundancy elimination results over 30 seeds ($\sigma=0.0$). SINDy-AD requires time-series data for its spline-based denoising and is not applicable to these static varieties.}
+\label{tab:synthetic}
+\begin{tabular}{lccccr}
+\toprule
+\textbf{Method} & \textbf{Red. Circle} & \textbf{Red. Sphere} & \textbf{Red. Cubic} & \textbf{Rec. error} & \textbf{FDR} \\
+\midrule
+SINDy-null (KRONIC) & 1.0 $\pm$ 0.0 & 1.0 $\pm$ 0.0 & 1.0 $\pm$ 0.0 & 0.00 & 0.00 \\
+SINDy-ST & 4.0 $\pm$ 0.0 & 7.0 $\pm$ 0.0 & 8.0 $\pm$ 0.0 & 0.16 & 0.83 \\
+SINDy-AD (spline-denoised) & --- & --- & --- & --- & --- \\
+Dense SVD+GB & 1.0 $\pm$ 0.0 & 1.0 $\pm$ 0.0 & 1.0 $\pm$ 0.0 & 0.00 & 0.00 \\
+SR-GB+CSNP (ours) & 1.0 $\pm$ 0.0 & 1.0 $\pm$ 0.0 & 1.0 $\pm$ 0.0 & 0.00 & 0.00 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Over‑lifting robustness (tab:overlifting)
+\begin{table}[ht]
+\centering
+\caption{Exact recovery on the unit circle with over‑lifting ($D=3$). SINDy‑null returns a higher‑degree multiple in most trials; Dense SVD+GB reduces it via algebraic minimality.}
+\label{tab:overlifting}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Method} & \textbf{Exact recovery} & \textbf{95\% Wilson CI} \\
+\midrule
+SINDy‑null (KRONIC) & 3.3\% & [1\%, 17\%] \\
+Dense SVD+GB & \textbf{100.0\%} & [89\%, 100\%] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Transition invariants (tab:transition)
+\begin{table}[H]
+\centering
+\caption{Transition invariant recovery rates ($\sigma=0.0$). SINDy-FD uses finite differences; it is not the published SINDy-AD method.}
+\label{tab:transition}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{5.0cm}p{4.9cm}cc@{}}
+\toprule
+\textbf{System} & \textbf{Mode} & \textbf{Exact recovery} & \textbf{Redundancy} \\
+\midrule
+Harmonic oscillator, fixed $dt$ & BB & \textbf{100.0\% [89\% , 100\%]} & 1.0 \\
+Harmonic oscillator, fixed $dt$ & SINDy-null (KRONIC) & 0.0\% [0\% , 11\%] & --- \\
+Harmonic oscillator, fixed $dt$ & SINDy-ST & 0.0\% [0\% , 11\%] & --- \\
+Harmonic oscillator, fixed $dt$ & SINDy-FD (finite diff., state target) & 100.0\% [89\% , 100\%] & --- \\
+Harmonic oscillator, fixed $dt$ & SINDy-FD (finite diff., transition target) & 100.0\% [89\% , 100\%] & --- \\
+Kepler angular momentum & BB & \textbf{100.0\% [89\% , 100\%]} & 1.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Noise sensitivity (tab:noise)
+\begin{table}[H]
+\centering
+\caption{Circle noise sensitivity, $N=5000$, 30 seeds, 95\% Wilson CI. \textbf{(a)} Exact recovery vs.\ noise level $\sigma$ under i.i.d.\ noise, na\"{i}ve rounding vs.\ snap-rounding. \textbf{(b)} Exact recovery under AR(1)-correlated noise at three correlation strengths $\phi$, isolating whether the SVD's noise-averaging is disrupted by correlation rather than just magnitude.}
+\label{tab:noise}
+\begin{minipage}[t]{0.56\textwidth}
+\centering
+\footnotesize
+\textbf{(a)}\\[2pt]
+\begin{tabular}{ccc}
+\toprule
+$\sigma$ & Na\"{i}ve & Snap-round.\\
+\midrule
+0.00 & 100.0\% [89\% , 100\%] & \textbf{100.0\% [89\% , 100\%]} \\
+0.02 & 60.0\% [42\% , 75\%] & \textbf{100.0\% [89\% , 100\%]} \\
+0.04--0.14 & 0.0\% [0\% , 11\%] & \textbf{100.0\% [89\% , 100\%]} \\
+0.16 & 0.0\% [0\% , 11\%] & \textbf{96.7\% [83\% , 99\%]} \\
+0.18 & 0.0\% [0\% , 11\%] & \textbf{60.0\% [42\% , 75\%]} \\
+0.20 & 0.0\% [0\% , 11\%] & \textbf{3.3\% [1\% , 17\%]} \\
+0.22--0.30 & 0.0\% [0\% , 11\%] & \textbf{0.0\% [0\% , 11\%]} \\
+\bottomrule
+\end{tabular}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+\centering
+\scriptsize
+\textbf{(b)}\\[2pt]
+\begin{tabular}{cccc}
+\toprule
+$\sigma$ & $\phi{=}0$ & $\phi{=}0.5$ & $\phi{=}0.9$\\
+\midrule
+0.02 & 100\% & 100\% & 100\% \\
+0.05 & 100\% & 100\% & 100\% \\
+0.10 & 100\% & 100\% & 96.7\% \\
+\bottomrule
+\end{tabular}
+\\[3pt]
+{\tiny 95\% Wilson CI for each rate here matches panel (a) at the same point estimate (n=30 in both).}
+\end{minipage}
+\end{table}
+
+
+% Feynman overall + baseline comparison (tab:feynman / tab:feynman-baselines, merged as panels (a)/(b))
+\begin{table}[ht]
+\centering
+\caption{Feynman benchmark, all 26 equations, 30 seeds each. \textbf{(a)} Exact recovery rates by degree subset. \textbf{(b)} \SRGBCSNP's All-26 row from (a) against \KRONIC (\SINDy-null) and the all-targets \SINDy-ST ensemble, same $\sigma$ grid.}
+\label{tab:feynman}
+\label{tab:feynman-baselines}
+\begin{minipage}[t]{0.58\textwidth}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\textbf{(a)}\\[2pt]
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Eq.\ type} & $\sigma{=}0.00$ & $\sigma{=}0.02$ & $\sigma{=}0.05$ & \# \\
+\midrule
+All 26 & \textbf{100\% [99.5,100]} & 73.1\% [69.9,76.1] & 59.7\% [56.3,63.1] & 26 \\
+Degree-2 & \textbf{100\% [99.1,100.0]} & 100\% [99.1,100.0] & 96.7\% [94.5,98.0] & 14 \\
+Degree-3 & \textbf{100\% [98.9,100.0]} & 41.7\% [36.7,46.8] & 16.7\% [13.2,20.9] & 12 \\
+\bottomrule
+\end{tabular}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.38\textwidth}
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\textbf{(b)}\\[2pt]
+\begin{tabular}{lcc}
+\toprule
+$\sigma$ & \KRONIC & \SINDy-ST\\
+\midrule
+0.00 & 100\% [99.5,100] & 100\% [99.5,100] \\
+0.02 & 28.2\% [25.2,31.5] & 42.2\% [38.8,45.7] \\
+0.05 & 20.4\% [17.7,23.4] & 29.7\% [26.6,33.0] \\
+\bottomrule
+\end{tabular}
+\\[3pt]
+{\tiny \SRGBCSNP at these $\sigma$: 100\%, 73.1\%, 59.7\% (panel (a), All 26).}
+\end{minipage}
+\end{table}
+
+
+% Groebner-basis scalability timings (tab:gb-scalability)
+\begin{table}[ht]
+\centering
+\caption{Gr\"{o}bner basis computation timings (SymPy, grevlex over $\mathbb{Q}$) for random sparse polynomial ideals with the stated number of generators. Median over 3 seeded instances per row, with a 120\,s per-instance cap; the timeout column counts instances hitting the cap (excluded from the median). Produced from \texttt{Results/gb\_scalability.csv}.}
+\label{tab:gb-scalability}
+\begin{tabular}{cccccc}
+\toprule
+$n$ & $D$ & $M$ & Generators & Median time & Timeouts\,/\,3\\
+\midrule
+4 & 2 & 15 & 1 & $0.0009$\,s & 0\\
+6 & 2 & 28 & 2 & $0.003$\,s & 0\\
+8 & 2 & 45 & 3 & $0.07$\,s & 0\\
+10 & 2 & 66 & 4 & $0.01$\,s & 0\\
+12 & 2 & 91 & 5 & $0.09$\,s & 2\\
+8 & 3 & 165 & 2 & $0.002$\,s & 0\\
+10 & 3 & 286 & 3 & $0.11$\,s & 0\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Holonomic constraints (tab:holonomic)
+\begin{table}[ht]
+\centering
+\caption{Holonomic equality constraint recovery (30 seeds, 95\% Wilson CI).}
+\label{tab:holonomic}
+\begin{tabular}{ccc}
+\toprule
+$\sigma$ & \textbf{Linear ($q_1-q_2=0$)} & \textbf{Nonlinear (distance equality)} \\
+\midrule
+0.00--0.05 & 100.0\% [89\% , 100\%] & 100.0\% [89\% , 100\%] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% OMP vs CSNP (tab:omp)
+\begin{table}[ht]
+\centering
+\caption{OMP vs CSNP exact recovery (30 seeds, 95\% Wilson CI).}
+\label{tab:omp}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Problem} & \textbf{CSNP (ours)} & \textbf{OMP baseline} \\
+\midrule
+harmonic\_oscillator & \textbf{100.0\% [89\% , 100\%]} & 0.0\% [0\% , 11\%] \\
+kepler & \textbf{100.0\% [89\% , 100\%]} & 100.0\% [89\% , 100\%] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Deflation multi-invariant recovery (tab:deflation)
+\begin{table}[ht]
+\centering
+\caption{Multi-invariant recovery via nullspace deflation (2D harmonic oscillator, 4 simultaneous generators, 30 seeds). \SINDy-null, RREF, and \SRGBCSNP search the identical difference dictionary; \SINDy-FD and \SINDy-AD search a smaller, restricted state-only dictionary and each return a single candidate per seed, so the full 4-generator set is structurally unreachable for either (marked ---). \SINDy-AD differs from \SINDy-FD only in its derivative estimator (a smoothing spline in place of a finite difference); it is a lightweight proxy for Kaheman et al.'s joint denoising/noise-model method, not a reimplementation of it, which is a fair comparison at this table's $\sigma=0$ since there is no noise for the joint noise model to characterize; see the module docstring of \texttt{benchmark\_deflation\_multi\_invariant.py}. RREF~\cite{OellerichEmelianenko2024} rows are read directly off the row-echelon-reduced nullspace basis, with no further Gr\"{o}bner reduction, matching what that method actually delivers as output.}
+\label{tab:deflation}
+\footnotesize
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Invariant} & \SRGBCSNP & \SINDy-null & RREF & \SINDy-FD & \SINDy-AD \\
+\midrule
+Energy (per-axis) & \textbf{100\% [89\%, 100\%]} & 0\% [0\%, 11\%] & \textbf{100\% [89\%, 100\%]} & 0\% [0\%, 11\%] & 0\% [0\%, 11\%] \\
+Cross term & \textbf{100\% [89\%, 100\%]} & 3\% [1\%, 17\%] & \textbf{100\% [89\%, 100\%]} & 0\% [0\%, 11\%] & 0\% [0\%, 11\%] \\
+Angular momentum & \textbf{100\% [89\%, 100\%]} & 0\% [0\%, 11\%] & \textbf{100\% [89\%, 100\%]} & 0\% [0\%, 11\%] & 0\% [0\%, 11\%] \\
+Full 4-generator set & \textbf{100\% [89\%, 100\%]} & 0\% [0\%, 11\%] & \textbf{100\% [89\%, 100\%]} & --- & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% SOS sensitivity (tab:sos)
+\begin{table}[ht]
+\centering
+\caption{SOS solver sensitivity to redundant constraints (30 random test polynomials).}
+\label{tab:sos}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Constraint set} & \textbf{Feasibility rate} & \textbf{95\% Wilson CI} \\
+\midrule
+Reduced Gr\"{o}bner basis & 0% & [0%, 11%] \\
+Redundant generating set & 0% & [0%, 11%] \\
+Failure rate due to redundancy & 100% & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Appendix: Feynman per-equation
+\begin{table}[ht]
+\centering
+\caption{Feynman benchmark: the 26 polynomial equations in the implicit
+polynomial form actually used by \texttt{feynman\_polynomials.py} (not
+the original, sometimes non-polynomial, physics formula each is derived
+from; Vars and Deg.\ are read from the generating source), with
+per-equation exact recovery rates over 30 seeds per condition.}
+\label{tab:feynman-full}
+\label{tab:feynman-per-eq}
+\small
+\begin{tabular}{llccccc}
+\toprule
+\textbf{ID} & \textbf{Invariant form ($p(x)=0$)} & \textbf{Vars} &
+  \textbf{Deg.} & $\sigma=0.00$ & $\sigma=0.02$ & $\sigma=0.05$\\
+\midrule
+I.8.14 & $(x_2-x_1)^2+(y_2-y_1)^2-d^2$ & 5 & 2 & 1.00 & 1.00 & 1.00\\
+circle_locus & $x^2+y^2-r^2$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+newtons_second_law & $F-ma$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+momentum_conservation_1d & $m_1v_1+m_2v_2-P$ & 5 & 2 & 1.00 & 1.00 & 0.67\\
+work_energy & $W-Fd$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+momentum_definition & $p-mv$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+distance_3d & $x^2+y^2+z^2-d^2$ & 4 & 2 & 1.00 & 1.00 & 1.00\\
+angular_momentum_2d & $xv_y-yv_x-L$ & 5 & 2 & 1.00 & 1.00 & 1.00\\
+power_definition & $P-Fv$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+frequency_shift_linear & $f-f_0-vf$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+wavenumber_dispersion & $\omega-\omega_0-vk$ & 4 & 2 & 1.00 & 1.00 & 1.00\\
+I.34.27 & $E-h\nu$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+planck_relation_duplicate & $h\nu-E$ & 3 & 2 & 1.00 & 1.00 & 1.00\\
+I.39.22 & $pV-nT$ & 4 & 2 & 1.00 & 1.00 & 0.87\\
+\addlinespace
+algebraic_cubic_toy & $x^3+2xy+y^2$ & 2 & 3 & 1.00 & 1.00 & 0.00\\
+I.12.2 & $Fr^2-kq_1q_2$ & 5 & 3 & 1.00 & 0.00 & 0.00\\
+centripetal_force & $rF-mv^2$ & 4 & 3 & 1.00 & 0.00 & 0.00\\
+charge_force_toy & $F-q_1q_2r$ & 4 & 3 & 1.00 & 1.00 & 0.00\\
+I.13.4 & $KE-\tfrac12mv^2$ & 3 & 3 & 1.00 & 1.00 & 1.00\\
+kinetic_energy_scaled & $2\,KE-mv^2$ & 3 & 3 & 1.00 & 1.00 & 1.00\\
+I.14.3 & $U-mgh$ & 4 & 3 & 1.00 & 0.00 & 0.00\\
+kinematics_position & $x-ut-\tfrac12at^2$ & 4 & 3 & 1.00 & 1.00 & 0.00\\
+parallel_axis_theorem & $I-I_c-md^2$ & 4 & 3 & 1.00 & 0.00 & 0.00\\
+gravitational_pe_orbit & $Ur+Gm_1m_2$ & 5 & 3 & 1.00 & 0.00 & 0.00\\
+I.43.31 & $D-kT\mu$ & 4 & 3 & 1.00 & 0.00 & 0.00\\
+polarization_correction & $n\,kT-n_0\,kT-n_0pE_f$ & 5 & 3 & 1.00 & 0.00 & 0.00\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: Adaptive degree discovery
+\begin{table}[ht]
+\centering
+\caption{Adaptive degree discovery on the unit circle ($\sigma=0.01$, $D_{\max}=4$).}
+\label{tab:adaptive-degree}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Rate} & \textbf{95\% Wilson CI} \\
+\midrule
+Exact recovery & 100% & [89%, 100%] \\
+Correct degree (2) selected & 100% & [89%, 100%] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: Fixed‑degree recovery
+\begin{table}[ht]
+\centering
+\caption{Fixed‑degree exact recovery rates on the unit circle ($\sigma=0.01$, 30 seeds).}
+\label{tab:fixed-degree}
+\begin{tabular}{ccc}
+\toprule
+\textbf{Degree} & \textbf{Recovery rate} & \textbf{95\% Wilson CI} \\
+\midrule
+1 & 0.0\% & [0\%, 11\%] \\
+2 & 100.0\% & [89\%, 100\%] \\
+3 & 100.0\% & [89\%, 100\%] \\
+4 & 100.0\% & [89\%, 100\%] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: Loop invariants
+\begin{table}[ht]
+\centering
+\caption{Loop invariant recovery rates (30 seeds, 95\% Wilson CI). The three exact-arithmetic baselines (SINDy-null, OMP, Dense SVD+GB) read the same exact integer nullspace, while SR-GB+CSNP runs its full floating-point pipeline on the raw traces; all four return identical results on every benchmark, so one column reports all four. SINDy-ST runs the standard all-targets implicit STLSQ ensemble and is reported separately, since it regresses implicit target columns rather than reading the nullspace.}
+\label{tab:loop-invariants}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Benchmark} & \textbf{Nullspace methods} & \textbf{SINDy-ST}\\
+\midrule
+sum & 100\% [89\%, 100\%] & 100\% [89\%, 100\%]\\
+ps2 & 100\% [89\%, 100\%] & 100\% [89\%, 100\%]\\
+ps3 & 100\% [89\%, 100\%] & 0\% [0\%, 11\%]\\
+egcd & 100\% [89\%, 100\%] & 100\% [89\%, 100\%]\\
+hash & 0\% [0\%, 11\%] & 0\% [0\%, 11\%]\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: AVI border-basis cardinality
+\begin{table}[H]
+\centering
+\caption{AVI border-basis cardinality vs \SRGBCSNP, mean over 30 seeds ($N=5000$). A single true generator underlies every system; AVI's cardinality is the size of the border basis it returns.}
+\label{tab:avi}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{3}{c}{\textbf{AVI cardinality}} & \multicolumn{3}{c}{\textbf{\SRGBCSNP exact}}\\
+\textbf{System} & $\sigma{=}0$ & $\sigma{=}0.01$ & $\sigma{=}0.02$ & $\sigma{=}0$ & $\sigma{=}0.01$ & $\sigma{=}0.02$\\
+\midrule
+Circle, Sphere & 1.0 & 1.0 & 1.0 & 100\% & 100\% & 100\%\\
+Cubic (algebraic toy) & 1.0 & 3.0 & 3.0 & 100\% & 100\% & 100\%\\
+Kepler angular momentum & 3.2 & 21.0 & 20.3 & 100\% & 0\% & 0\%\\
+Harmonic oscillator (transition) & 7.0 & 6.0 & 6.0 & 100\% & 0\% & 0\%\\
+Feynman circle locus, angular momentum (2D) & 1.0 & 1.0 & 1.0 & 100\% & 100\% & 100\%\\
+Feynman Newton's second law & 1.0 & 1.0 & 2.0 & 100\% & 100\% & 100\%\\
+Feynman I.12.2 & 1.0 & 10.0 & 13.1 & 100\% & 0\% & 0\%\\
+Feynman kinematics (position) & 1.0 & 5.6 & 9.0 & 100\% & 100\% & 100\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: fixed-dt vs variable-dt discriminator
+\begin{table}[H]
+\centering
+\caption{Fixed-$dt$ vs.\ variable-$dt$ discriminator: exact recovery over 30 seeds ($N=5000$, $\sigma=0$). \SRGBCSNP, \OMP, and \SINDy-null search the full fifteen-monomial transition-pair dictionary and are scored against $H$ directly. \SINDy-FD and \SINDy-AD search a different, restricted state-only dictionary $(x_t,v_t)$, have no entry on variable $dt$ (no single fixed step for their derivative estimators), and are each scored two ways: against the state energy directly, and against $H$ via the induced form $p(x_t,v_t)-p(x_{\mathrm{next}},v_{\mathrm{next}})$. \SINDy-AD differs from \SINDy-FD only in its derivative estimator (a smoothing spline in place of a finite difference); it is a lightweight proxy for Kaheman et al.'s joint denoising/noise-model method, not a reimplementation, which is a fair comparison at this table's $\sigma=0$ since there is no noise for the joint noise model to characterize.}
+\label{tab:edisc}
+\begin{tabular}{lcccccccc}
+\toprule
+\textbf{Regime} & \SRGBCSNP & \OMP & \SINDy-null & \SINDy-FD (state) & \SINDy-FD (transition) & \SINDy-AD (state) & \SINDy-AD (transition)\\
+\midrule
+Exact rotation flow & \textbf{100\% [0.89, 1.00]} & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]} & \textbf{100\% [0.89, 1.00]} & \textbf{100\% [0.89, 1.00]} & \textbf{100\% [0.89, 1.00]}\\
+Symplectic Euler, fixed $dt$ & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & 0\% [0.00, 0.11]\\
+Symplectic Euler, variable $dt$ & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & 0\% [0.00, 0.11] & --- & --- & --- & ---\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: sparsity-first vs rationality-first selection
+\begin{table}[ht]
+\centering
+\caption{Sparsity-first vs.\ rationality-first selection on the fixed-$dt$ harmonic oscillator's transition-pair dictionary ($N=5000$, $\sigma=0$, 30 seeds per $dt$). Both arms search the identical candidate pool; only the final selection key differs.}
+\label{tab:sparsity-vs-rationality}
+\begin{tabular}{c c c}
+\toprule
+$dt$ & \textbf{Sparsity-first} & \textbf{Rationality-first}\\
+\midrule
+0.05 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.08 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.10 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.12 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.15 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.18 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.20 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.22 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.25 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.28 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+0.30 & 0\% [0.00, 0.11] & \textbf{100\% [0.89, 1.00]}\\
+\midrule
+Pooled ($n=330$) & 0\% [0.00, 0.01] & \textbf{100\% [0.99, 1.00]}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: unit-invariance stress test
+\begin{table}[H]
+\centering
+\caption{Unit-invariance stress test: exact recovery under random per-quantity rescaling (30 seeds each). ``Baseline'' is the unmodified benchmark already reported elsewhere in this paper.}
+\label{tab:eunit}
+\begin{tabular}{lccc}
+\toprule
+\textbf{Benchmark} & \textbf{Baseline} & \textbf{Rescaled} & \textbf{Standardized}\\
+\midrule
+Circle & 100\% & 0\% & 0\%\\
+Oscillator, fixed $dt$ & 100\% & 0\% & 0\%\\
+Kepler angular momentum & 100\% & \textbf{100\%} & 0\%\\
+Feynman momentum conservation (1D) & 100\% & 0\% & 0\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: point-vortex multi-invariant recovery
+\begin{table}[H]
+\centering
+\caption{Point-vortex multi-invariant recovery via full-nullspace deflation, degree-2 lift over the pooled state, mean over the seed grid ($\sigma=0$). $P=\sum_j x_j$ and $Q=\sum_j y_j$ are the degree-1 linear impulses; $I=\sum_j(x_j^2+y_j^2)-I_0$ is the degree-2 angular impulse. \SRGBCSNP's $P$/$Q$/$I$ columns and ``Ideal match'' test ideal membership of the true generator against \SRGBCSNP's own canonicalized (reduced Gr\"{o}bner basis) output. The RREF~\cite{OellerichEmelianenko2024} columns instead test a direct scalar-multiple match against each raw generator, with no further reduction, since that is what row-echelon disambiguation actually delivers; an ideal-equality reading of RREF's raw, non-minimal nullspace basis is close to tautological once the nullspace itself is numerically correct (Section~\ref{sec:transition}) and is omitted here for that reason. 30 seeds, Wilson 95\% CI on Ideal match.}
+\label{tab:vortex}
+\footnotesize
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{System} & $P$ & $Q$ & $I$ & \textbf{Ideal match} & RREF $P$ & RREF $Q$ & RREF $I$\\
+\midrule
+3 vortices & 100\% & 100\% & 100\% & 100\% [89\%, 100\%] & 100\% & 100\% & \textbf{0\%}\\
+4 vortices & 100\% & 100\% & 0\% & 0\% [0\%, 11\%] & 100\% & 100\% & \textbf{0\%}\\
+5 vortices & 0\% & 0\% & 0\% & 0\% [0\%, 11\%] & 100\% & 100\% & \textbf{0\%}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: noise ceiling for higher-degree invariants
+\begin{table}[H]
+\centering
+\caption{Raw nullspace-coefficient $L_2$ error and mean gap ratio $\rho_{M-1}$, degree-2 vs.\ degree-3 (10 seeds, $N=5000$). Full per-seed output in \texttt{Results/noise\_ceiling\_probe.csv} and \texttt{Results/noise\_ceiling\_probe\_summary.csv}.}
+\label{tab:noise-ceiling-probe}
+\begin{tabular}{lccccc}
+\toprule
+& \multicolumn{5}{c}{$\sigma$}\\
+\textbf{Equation} & 0.000 & 0.005 & 0.010 & 0.020 & 0.050\\
+\midrule
+Circle locus (deg 2), $L_2$ error   & $\approx 0$ & $4.1\times10^{-3}$ & $1.5\times10^{-2}$ & $8.0\times10^{-2}$ & $14.9$\\
+Circle locus (deg 2), $\rho_{M-1}$  & $\gg 1$ & $7.6$ & $3.8$ & $1.9$ & $1.3$\\
+\addlinespace
+I.12.2 (deg 3), $L_2$ error   & $\approx 0$ & $8.2\times10^{3}$ & $6.2\times10^{3}$ & $1.1\times10^{4}$ & $3.2\times10^{4}$\\
+I.12.2 (deg 3), $\rho_{M-1}$  & $\gg 1$ & $4.8$ & $4.8$ & $4.7$ & $4.3$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: difference-dictionary generality probe
+\begin{table}[ht]
+\centering
+\caption{Difference-dictionary recovery of the modified invariant $Q_{dt}$ (30 seeds, 95\% Wilson CI). $H$ rate counts trials returning the true energy $x^2+v^2$ instead of $Q_{dt}$, the collapse mode expected once $3\sigma$ exceeds the $Q_{dt}$--$H$ coefficient gap.}
+\label{tab:diff-dict-generality}
+\begin{tabular}{llccc}
+\toprule
+Integrator & $dt$ & $\sigma$ & $Q_{dt}$ recovery & $H$ rate \\
+\midrule
+Symplectic Euler & 0.1 & 0.00 & 100.0\% [89\% , 100\%] & 0.0\% \\
+Symplectic Euler & 0.1 & 0.01 & 0.0\% [0\% , 11\%] & 0.0\% \\
+Symplectic Euler & 0.1 & 0.02 & 0.0\% [0\% , 11\%] & 0.0\% \\
+Symplectic Euler & 0.1 & 0.05 & 0.0\% [0\% , 11\%] & 0.0\% \\
+Symplectic Euler & 0.5 & 0.00 & 100.0\% [89\% , 100\%] & 0.0\% \\
+Symplectic Euler & 0.5 & 0.01 & 100.0\% [89\% , 100\%] & 0.0\% \\
+Symplectic Euler & 0.5 & 0.02 & 100.0\% [89\% , 100\%] & 0.0\% \\
+Symplectic Euler & 0.5 & 0.05 & 100.0\% [89\% , 100\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 0.5 & 0.00 & 100.0\% [89\% , 100\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 0.5 & 0.01 & 100.0\% [89\% , 100\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 0.5 & 0.02 & 93.3\% [79\% , 98\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 0.5 & 0.05 & 0.0\% [0\% , 11\%] & 96.7\% \\
+St\"{o}rmer--Verlet & 1 & 0.00 & 100.0\% [89\% , 100\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 1 & 0.01 & 100.0\% [89\% , 100\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 1 & 0.02 & 100.0\% [89\% , 100\%] & 0.0\% \\
+St\"{o}rmer--Verlet & 1 & 0.05 & 100.0\% [89\% , 100\%] & 0.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: Qmax (denominator cap) recovery / ceiling
+\begin{table}[ht]
+\centering
+\caption{Exact recovery vs the rational-denominator cap $Q_{\max}$ (\texttt{max\_denom}) on conics with coprime integer coefficients, sampled exactly on the variety ($\sigma=0$, 30 seeds). Each invariant's minimum representable denominator $q^\star$ is listed: the smallest $Q_{\max}$ at which the invariant is representable under snap-rounding's own normalisation (divide by whichever coefficient has the largest magnitude, not whichever normalisation happens to be cheapest). Recovery is a clean step function of $q^\star$: $0\%$ at every $Q_{\max}<q^\star$ and $100\%$ at every $Q_{\max}\ge q^\star$, with no observed margin, so e.g.\ the $q^\star=19$ row stays at $0\%$ through the default $Q_{\max}=16$ and turns on immediately at $Q_{\max}=32$.}
+\label{tab:qmax-recovery}
+\begin{tabular}{l c cccccc}
+\toprule
+\textbf{Invariant} & $q^\star$ & $Q_{\max}{=}2$ & $Q_{\max}{=}4$ & $Q_{\max}{=}8$ & $Q_{\max}{=}16$ & $Q_{\max}{=}32$ & $Q_{\max}{=}64$ \\
+\midrule
+$x^2+y^2-1$ & 1 & 100\% & 100\% & 100\% & 100\% & 100\% & 100\% \\
+$3x^2+5y^2-7$ & 7 & 0\% & 0\% & 100\% & 100\% & 100\% & 100\% \\
+$5x^2+7y^2-11$ & 11 & 0\% & 0\% & 0\% & 100\% & 100\% & 100\% \\
+$7x^2+11y^2-13$ & 13 & 0\% & 0\% & 0\% & 100\% & 100\% & 100\% \\
+$13x^2+17y^2-19$ & 19 & 0\% & 0\% & 0\% & 0\% & 100\% & 100\% \\
+$17x^2+19y^2-23$ & 23 & 0\% & 0\% & 0\% & 0\% & 100\% & 100\% \\
+\midrule
+\emph{median runtime (s)} & & 0.006 & 0.006 & 0.006 & 0.021 & 0.036 & 0.038 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: Qmax false-positive rate on negatives
+\begin{table}[ht]
+\centering
+\caption{False-positive rate (a nonzero generator returned when the method should abstain) vs the denominator cap $Q_{\max}$, 30 seeds. Neither a generic point cloud nor a variety with an irrational coefficient admits a low-denominator rational invariant; raising $Q_{\max}$ well past the default 16 does not manufacture one.}
+\label{tab:qmax-falsepos}
+\begin{tabular}{l cccccc}
+\toprule
+\textbf{Negative system} & $Q_{\max}{=}2$ & $Q_{\max}{=}4$ & $Q_{\max}{=}8$ & $Q_{\max}{=}16$ & $Q_{\max}{=}32$ & $Q_{\max}{=}64$ \\
+\midrule
+Generic cloud (no relation) & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\
+$x^2+\pi y^2-1$ (irrational) & 0\% & 0\% & 0\% & 0\% & 0\% & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Table: eps (snap tolerance) sensitivity
+\begin{table}[ht]
+\centering
+\caption{Sensitivity to the snap / rational-window tolerance $\varepsilon$, 30 seeds. Recovery is measured on the unit circle at $\sigma=0.01$; the false-positive column is abstention on the irrational conic $x^2+\pi y^2-1$. Recovery is stable across two orders of magnitude of $\varepsilon$ around the default $10^{-4}$.}
+\label{tab:eps-sensitivity}
+\begin{tabular}{c c c}
+\toprule
+$\varepsilon$ & \textbf{Circle recovery} & \textbf{False positive (irrational)} \\
+\midrule
+$10^{-2}$ & 100\% & 0\% \\
+$10^{-3}$ & 100\% & 0\% \\
+$10^{-4}$ & 100\% & 0\% \\
+$10^{-5}$ & 100\% & 0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\end{document}

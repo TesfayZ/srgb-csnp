@@ -1,0 +1,5 @@
+generator,n_trials,n_misclassified,status_modes,misclassification_rate
+x*vy-y*vx (ang. momentum),30,0,{'FEASIBLE': np.int64(30)},0.0
+x*y+vx*vy (cross term),30,0,{'FEASIBLE': np.int64(30)},0.0
+x^2+vx^2 (x-energy),30,0,{'FEASIBLE': np.int64(30)},0.0
+y^2+vy^2 (y-energy),30,0,{'FEASIBLE': np.int64(30)},0.0

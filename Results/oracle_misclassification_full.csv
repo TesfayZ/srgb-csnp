@@ -1,0 +1,121 @@
+seed,d,M,generator,status,misclassified_hard_infeasible
+0,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+0,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+0,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+0,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+1,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+1,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+1,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+1,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+2,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+2,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+2,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+2,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+3,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+3,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+3,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+3,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+4,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+4,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+4,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+4,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+5,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+5,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+5,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+5,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+6,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+6,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+6,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+6,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+7,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+7,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+7,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+7,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+8,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+8,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+8,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+8,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+9,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+9,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+9,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+9,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+10,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+10,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+10,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+10,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+11,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+11,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+11,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+11,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+12,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+12,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+12,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+12,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+13,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+13,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+13,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+13,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+14,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+14,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+14,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+14,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+15,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+15,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+15,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+15,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+16,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+16,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+16,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+16,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+17,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+17,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+17,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+17,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+18,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+18,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+18,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+18,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+19,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+19,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+19,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+19,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+20,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+20,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+20,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+20,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+21,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+21,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+21,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+21,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+22,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+22,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+22,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+22,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+23,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+23,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+23,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+23,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+24,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+24,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+24,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+24,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+25,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+25,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+25,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+25,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+26,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+26,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+26,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+26,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+27,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+27,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+27,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+27,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+28,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+28,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+28,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+28,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False
+29,4,14,x^2+vx^2 (x-energy),FEASIBLE,False
+29,4,14,y^2+vy^2 (y-energy),FEASIBLE,False
+29,4,14,x*y+vx*vy (cross term),FEASIBLE,False
+29,4,14,x*vy-y*vx (ang. momentum),FEASIBLE,False

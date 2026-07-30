@@ -1,0 +1,7 @@
+Claim verification run at 2026-07-25T16:40:53.386914
+4/4 checks passed
+
+PASS  rationality_cost_floor
+PASS  worked_example_section_3_4
+PASS  denominator_ceiling_normalisation_convention
+PASS  qmax_alt_formula_pinned_at_ten

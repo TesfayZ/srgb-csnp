@@ -1,0 +1,10 @@
+Sample size ablation for circle (σ=0.01)
+N=  100, exact recovery rate: 100% 95% CI [89%, 100%]
+N=  500, exact recovery rate: 100% 95% CI [89%, 100%]
+N= 1000, exact recovery rate: 100% 95% CI [89%, 100%]
+N= 2000, exact recovery rate: 100% 95% CI [89%, 100%]
+N= 5000, exact recovery rate: 100% 95% CI [89%, 100%]
+N=10000, exact recovery rate: 100% 95% CI [89%, 100%]
+Figure(640x480)
+
+Plot saved as sample_size_ablation.png

@@ -1,0 +1,88 @@
+Running noise ablation with 30 seeds per sigma (circle, N=5000)...
+σ=0.000, seed=10/30: new=True, orig=True
+σ=0.000, seed=20/30: new=True, orig=True
+σ=0.000, seed=30/30: new=True, orig=True
+σ=0.020, seed=10/30: new=True, orig=True
+σ=0.020, seed=20/30: new=True, orig=True
+σ=0.020, seed=30/30: new=True, orig=True
+σ=0.040, seed=10/30: new=True, orig=False
+σ=0.040, seed=20/30: new=True, orig=False
+σ=0.040, seed=30/30: new=True, orig=False
+σ=0.060, seed=10/30: new=True, orig=False
+σ=0.060, seed=20/30: new=True, orig=False
+σ=0.060, seed=30/30: new=True, orig=False
+σ=0.080, seed=10/30: new=True, orig=False
+σ=0.080, seed=20/30: new=True, orig=False
+σ=0.080, seed=30/30: new=True, orig=False
+σ=0.100, seed=10/30: new=True, orig=False
+σ=0.100, seed=20/30: new=True, orig=False
+σ=0.100, seed=30/30: new=True, orig=False
+σ=0.120, seed=10/30: new=True, orig=False
+σ=0.120, seed=20/30: new=True, orig=False
+σ=0.120, seed=30/30: new=True, orig=False
+σ=0.140, seed=10/30: new=True, orig=False
+σ=0.140, seed=20/30: new=True, orig=False
+σ=0.140, seed=30/30: new=True, orig=False
+σ=0.160, seed=10/30: new=True, orig=False
+σ=0.160, seed=20/30: new=True, orig=False
+σ=0.160, seed=30/30: new=True, orig=False
+σ=0.180, seed=10/30: new=True, orig=False
+σ=0.180, seed=20/30: new=True, orig=False
+σ=0.180, seed=30/30: new=True, orig=False
+σ=0.200, seed=10/30: new=False, orig=False
+σ=0.200, seed=20/30: new=False, orig=False
+σ=0.200, seed=30/30: new=False, orig=False
+σ=0.220, seed=10/30: new=False, orig=False
+σ=0.220, seed=20/30: new=False, orig=False
+σ=0.220, seed=30/30: new=False, orig=False
+σ=0.240, seed=10/30: new=False, orig=False
+σ=0.240, seed=20/30: new=False, orig=False
+σ=0.240, seed=30/30: new=False, orig=False
+σ=0.260, seed=10/30: new=False, orig=False
+σ=0.260, seed=20/30: new=False, orig=False
+σ=0.260, seed=30/30: new=False, orig=False
+σ=0.280, seed=10/30: new=False, orig=False
+σ=0.280, seed=20/30: new=False, orig=False
+σ=0.280, seed=30/30: new=False, orig=False
+σ=0.300, seed=10/30: new=False, orig=False
+σ=0.300, seed=20/30: new=False, orig=False
+σ=0.300, seed=30/30: new=False, orig=False
+σ=0.320, seed=10/30: new=False, orig=False
+σ=0.320, seed=20/30: new=False, orig=False
+σ=0.320, seed=30/30: new=False, orig=False
+σ=0.340, seed=10/30: new=False, orig=False
+σ=0.340, seed=20/30: new=False, orig=False
+σ=0.340, seed=30/30: new=False, orig=False
+σ=0.360, seed=10/30: new=False, orig=False
+σ=0.360, seed=20/30: new=False, orig=False
+σ=0.360, seed=30/30: new=False, orig=False
+σ=0.380, seed=10/30: new=False, orig=False
+σ=0.380, seed=20/30: new=False, orig=False
+σ=0.380, seed=30/30: new=False, orig=False
+σ=0.400, seed=10/30: new=False, orig=False
+σ=0.400, seed=20/30: new=False, orig=False
+σ=0.400, seed=30/30: new=False, orig=False
+
+=== Exact recovery rates (30 seeds) ===
+    sigma  new_rate  orig_rate  new_time  orig_time  new_ci_low  new_ci_high  orig_ci_low  orig_ci_high
+0    0.00  1.000000        1.0  0.059767   0.033426    0.886487     1.000000     0.886487      1.000000
+1    0.02  1.000000        0.6  0.038579   0.025831    0.886487     1.000000     0.423204      0.754094
+2    0.04  1.000000        0.0  0.035687   0.023853    0.886487     1.000000     0.000000      0.113513
+3    0.06  1.000000        0.0  0.036403   0.031040    0.886487     1.000000     0.000000      0.113513
+4    0.08  1.000000        0.0  0.047142   0.053438    0.886487     1.000000     0.000000      0.113513
+5    0.10  1.000000        0.0  0.033301   0.032416    0.886487     1.000000     0.000000      0.113513
+6    0.12  1.000000        0.0  0.032173   0.029133    0.886487     1.000000     0.000000      0.113513
+7    0.14  1.000000        0.0  0.050711   0.062510    0.886487     1.000000     0.000000      0.113513
+8    0.16  0.966667        0.0  0.035313   0.039836    0.833296     0.994091     0.000000      0.113513
+9    0.18  0.600000        0.0  0.047768   0.030825    0.423204     0.754094     0.000000      0.113513
+10   0.20  0.033333        0.0  0.029967   0.071052    0.005909     0.166704     0.000000      0.113513
+11   0.22  0.000000        0.0  0.016473   0.036209    0.000000     0.113513     0.000000      0.113513
+12   0.24  0.000000        0.0  0.016944   0.041205    0.000000     0.113513     0.000000      0.113513
+13   0.26  0.000000        0.0  0.028769   0.075105    0.000000     0.113513     0.000000      0.113513
+14   0.28  0.000000        0.0  0.015140   0.044970    0.000000     0.113513     0.000000      0.113513
+15   0.30  0.000000        0.0  0.021582   0.059130    0.000000     0.113513     0.000000      0.113513
+16   0.32  0.000000        0.0  0.022884   0.059429    0.000000     0.113513     0.000000      0.113513
+17   0.34  0.000000        0.0  0.066667   0.040725    0.000000     0.113513     0.000000      0.113513
+18   0.36  0.000000        0.0  0.075092   0.084729    0.000000     0.113513     0.000000      0.113513
+19   0.38  0.000000        0.0  0.044787   0.053458    0.000000     0.113513     0.000000      0.113513
+20   0.40  0.000000        0.0  0.064806   0.068729    0.000000     0.113513     0.000000      0.113513

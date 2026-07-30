@@ -1,0 +1,37 @@
+Test  0: reduced=False, redundant=False
+Test  1: reduced=False, redundant=False
+Test  2: reduced=False, redundant=False
+Test  3: reduced=False, redundant=False
+Test  4: reduced=False, redundant=False
+Test  5: reduced=False, redundant=False
+Test  6: reduced=False, redundant=False
+Test  7: reduced=False, redundant=False
+Test  8: reduced=False, redundant=False
+Test  9: reduced=False, redundant=False
+Test 10: reduced=False, redundant=False
+Test 11: reduced=False, redundant=False
+Test 12: reduced=False, redundant=False
+Test 13: reduced=False, redundant=False
+Test 14: reduced=False, redundant=False
+Test 15: reduced=False, redundant=False
+Test 16: reduced=False, redundant=False
+Test 17: reduced=False, redundant=False
+Test 18: reduced=False, redundant=False
+Test 19: reduced=False, redundant=False
+Test 20: reduced=False, redundant=False
+Test 21: reduced=False, redundant=False
+Test 22: reduced=False, redundant=False
+Test 23: reduced=False, redundant=False
+Test 24: reduced=False, redundant=False
+Test 25: reduced=False, redundant=False
+Test 26: reduced=False, redundant=False
+Test 27: reduced=False, redundant=False
+Test 28: reduced=False, redundant=False
+Test 29: reduced=False, redundant=False
+
+============================================================
+SOS Sensitivity to Redundant Constraints (sampling-based)
+Reduced ideal success: 0% 95% CI [0%, 11%]
+Redundant ideal success: 0% 95% CI [0%, 11%]
+Failure rate due to redundancy: 100%
+============================================================

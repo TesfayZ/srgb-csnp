@@ -1,0 +1,4 @@
+mode,csnp_rate,omp_rate,sindy_null_rate,sindy_fd_state_rate,sindy_fd_transition_rate,sindy_ad_state_rate,sindy_ad_transition_rate,sindy_ad_n_timeout,n_seeds
+exact_flow,1.0,0.0,0.0,1.0,1.0,1.0,1.0,0,30
+fixed_dt_symplectic_euler,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,30
+variable_dt,0.0,0.0,0.0,,,,,0,30

@@ -1,0 +1,35 @@
+Running over‑lifting benchmark (circle, D=3, N=5000, σ=0.0, seeds=30)
+  seed= 0: sindy=False, dense=True
+  seed= 1: sindy=False, dense=True
+  seed= 2: sindy=False, dense=True
+  seed= 3: sindy=False, dense=True
+  seed= 4: sindy=False, dense=True
+  seed= 5: sindy=False, dense=True
+  seed= 6: sindy=False, dense=True
+  seed= 7: sindy=False, dense=True
+  seed= 8: sindy=False, dense=True
+  seed= 9: sindy=False, dense=True
+  seed=10: sindy=False, dense=True
+  seed=11: sindy=False, dense=True
+  seed=12: sindy=False, dense=True
+  seed=13: sindy=False, dense=True
+  seed=14: sindy=False, dense=True
+  seed=15: sindy=False, dense=True
+  seed=16: sindy=False, dense=True
+  seed=17: sindy=False, dense=True
+  seed=18: sindy=False, dense=True
+  seed=19: sindy=False, dense=True
+  seed=20: sindy=False, dense=True
+  seed=21: sindy=False, dense=True
+  seed=22: sindy=False, dense=True
+  seed=23: sindy=False, dense=True
+  seed=24: sindy=False, dense=True
+  seed=25: sindy=False, dense=True
+  seed=26: sindy=False, dense=True
+  seed=27: sindy=False, dense=True
+  seed=28: sindy=False, dense=True
+  seed=29: sindy=True, dense=True
+
+SINDy‑null (D=3): 3% 95% CI [1%, 17%]
+Dense SVD+GB (D=3): 100% 95% CI [89%, 100%]
+Results saved to Results/overlifting_circle_*.csv

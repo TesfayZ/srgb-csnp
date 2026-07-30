@@ -1,0 +1,5 @@
+PASS enum-regime bit-consistency: (np.float64(3.0), 3)
+PASS branch-regime optimality: (np.float64(3.0), 3) -> x**2 + y**2 - 1
+PASS branch-regime anytime fallback returns a candidate
+
+All unified-search optimality tests passed.

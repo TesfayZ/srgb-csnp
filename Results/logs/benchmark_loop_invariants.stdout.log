@@ -1,0 +1,35 @@
+
+Running sum (30 seeds)...
+  seed 10/30 done
+  seed 20/30 done
+  seed 30/30 done
+
+Running ps2 (30 seeds)...
+  seed 10/30 done
+  seed 20/30 done
+  seed 30/30 done
+
+Running ps3 (30 seeds)...
+  seed 10/30 done
+  seed 20/30 done
+  seed 30/30 done
+
+Running egcd (30 seeds)...
+  seed 10/30 done
+  seed 20/30 done
+  seed 30/30 done
+
+Running hash (30 seeds)...
+  seed 10/30 done
+  seed 20/30 done
+  seed 30/30 done
+
+======================================================================
+Loop Invariant Benchmark Summary (30 seeds)
+======================================================================
+benchmark  SR-GB+CSNP_rate  SINDy-null (exact)_rate  SINDy-ST_rate  OMP (exact)_rate  Dense SVD+GB (exact)_rate
+      sum              1.0                      1.0            1.0               1.0                        1.0
+      ps2              1.0                      1.0            1.0               1.0                        1.0
+      ps3              1.0                      1.0            0.0               1.0                        1.0
+     egcd              1.0                      1.0            1.0               1.0                        1.0
+     hash              0.0                      0.0            0.0               0.0                        0.0

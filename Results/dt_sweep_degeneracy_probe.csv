@@ -1,0 +1,2 @@
+dt,seed,returned,matches_H
+0.05,0,"['399*v_next**3/400 - 799*v_next**2*v_t/400 + v_next**2*x_next/20 + v_next*v_t**2 - v_next*v_t*x_next/20', '-v_next**2 + v_next*v_t - x_next*x_t + x_t**2', '20*v_next**2 - 20*v_next*v_t + v_next*x_t']",False

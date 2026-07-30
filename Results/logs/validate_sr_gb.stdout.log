@@ -1,0 +1,31 @@
+[PASS] entangled multi-invariant (deg-2 lib): recovers BOTH x0-x1 and x2-x3
+[PASS] noisy entangled, DEFAULT path: exactly 1 genuine invariant (sigma-gate)
+[PASS] noisy entangled, full_nullspace=True: BOTH invariants, no extras
+[PASS] single-invariant no-spurious-growth sigma=0.0 full_nullspace=False
+[PASS] single-invariant no-spurious-growth sigma=0.0 full_nullspace=True
+[PASS] single-invariant no-spurious-growth sigma=0.01 full_nullspace=False
+[PASS] single-invariant no-spurious-growth sigma=0.01 full_nullspace=True
+[PASS] single-invariant no-spurious-growth sigma=0.02 full_nullspace=False
+[PASS] single-invariant no-spurious-growth sigma=0.02 full_nullspace=True
+[PASS] three entangled invariants: exactly x0-x1, x2-x3, x4-x5, no redundant linear-combination generators
+[PASS] bb_search fires on the DEFAULT path via the empty-sweep fallback
+[PASS] ...and recovers the sparse target x0 - x1 with no explicit flags
+[PASS] circle recovery at sigma=0.0 (exactly 1 generator)
+[PASS] circle recovery at sigma=0.01 (exactly 1 generator)
+[PASS] circle recovery at sigma=0.02 (exactly 1 generator)
+[PASS] ps3-like large-dynamic-range recovery
+[PASS] bb_search fires in full_nullspace mode on a high-d* sparse case
+[PASS] ...and recovers the sparse target x0 - x1
+[PASS] prebuilt-Phi difference library recovers x^2 + v^2
+[PASS] adaptive path rejects monomials=/Phi= without a fixed degree
+
+9/9 tests passed in 19.0s
+  PASS  entangled_multi_invariant
+  PASS  entangled_multi_invariant_with_noise
+  PASS  single_invariant_no_spurious_growth
+  PASS  three_invariants_no_linear_combo_redundancy
+  PASS  bb_fires_by_default_fallback
+  PASS  noise_robustness_circle
+  PASS  ps3_like_large_dynamic_range
+  PASS  bb_fires_high_d_sparse
+  PASS  prebuilt_phi_difference_library

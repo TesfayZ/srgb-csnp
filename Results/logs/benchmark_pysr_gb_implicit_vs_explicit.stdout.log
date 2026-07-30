@@ -1,0 +1,136 @@
+[juliapkg] Found dependencies: /usr/local/lib/python3.12/dist-packages/juliacall/juliapkg.json
+[juliapkg] Found dependencies: /usr/local/lib/python3.12/dist-packages/juliapkg/juliapkg.json
+[juliapkg] Found dependencies: /usr/local/lib/python3.12/dist-packages/pysr/juliapkg.json
+[juliapkg] Locating Julia 1.10.3 - 1.11
+[juliapkg] WARNING: You have Julia 1.12.6 installed but 1.10.3 - 1.11 is required.
+[juliapkg]   It is recommended that you upgrade Julia or install JuliaUp.
+[juliapkg] Querying Julia versions from https://julialang-s3.julialang.org/bin/versions.json
+[juliapkg] WARNING: About to install Julia 1.11.9 to /root/.julia/environments/pyjuliapkg/pyjuliapkg/install.
+[juliapkg]   If you use juliapkg in more than one environment, you are likely to
+[juliapkg]   have Julia installed in multiple locations. It is recommended to
+[juliapkg]   install JuliaUp (https://github.com/JuliaLang/juliaup) or Julia
+[juliapkg]   (https://julialang.org/downloads) yourself.
+[juliapkg] Downloading Julia from https://julialang-s3.julialang.org/bin/linux/x64/1.11/julia-1.11.9-linux-x86_64.tar.gz
+             download complete
+[juliapkg] Verifying download
+[juliapkg] Installing Julia 1.11.9 to /root/.julia/environments/pyjuliapkg/pyjuliapkg/install
+[juliapkg] Using Julia 1.11.9 at /root/.julia/environments/pyjuliapkg/pyjuliapkg/install/bin/julia
+[juliapkg] Finding libjulia:
+           | using Libdl
+           | print(abspath(Libdl.dlpath("libjulia")))
+[juliapkg] Using Julia project at /root/.julia/environments/pyjuliapkg
+[juliapkg] Writing Project.toml:
+           | [deps]
+           | PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+           | OpenSSL_jll = "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+           | SymbolicRegression = "8254be44-1295-4e6a-a16d-46603ac705cb"
+           | Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+           | 
+           | [compat]
+           | PythonCall = "=0.9.26"
+           | OpenSSL_jll = "~3.0"
+           | SymbolicRegression = "~1.11"
+           | Serialization = "^1"
+[juliapkg] Installing packages:
+           | import Pkg
+           | Pkg.Registry.update()
+           | Pkg.add([
+           |   Pkg.PackageSpec(name="PythonCall", uuid="6099a3de-0909-46bc-b1f4-468b9a2dfc0d"),
+           |   Pkg.PackageSpec(name="OpenSSL_jll", uuid="458c3c95-2e84-50aa-8efc-19380b2a3a95"),
+           |   Pkg.PackageSpec(name="SymbolicRegression", uuid="8254be44-1295-4e6a-a16d-46603ac705cb"),
+           |   Pkg.PackageSpec(name="Serialization", uuid="9e88b42a-f829-5b0c-bbe9-9e923198166b"),
+           | ])
+           | Pkg.resolve()
+           | Pkg.precompile()
+============================================================
+Experiment 1: Circle  (x² + y² - 1 = 0)
+Expected result: FAIL  (multi-valued implicit variety)
+============================================================
+N=5000, seeds=30, niterations=20
+
+  seed=0: exact=False  expression=x*(x**4*(x**2 - 1.2731779)**8)
+  seed=1: exact=False  expression=x*(x**2 - 1*0.8770585)*0.14612223
+  seed=2: exact=False  expression=(x**2 - 1*0.9840927)*(-0.030197293)
+  seed=3: exact=False  expression=(0.011195085 - x)**32*(x**2 - 1.5878079)**64
+  seed=4: exact=False  expression=(x + x - (x*(-1.0119548) - 1.012863))*(x*(x**4*(x + x)**2) - 0.83840436)*(x*x - 0.973288)*0.026027229
+  seed=5: exact=False  expression=(-x - 0.2177549)**2*0.031375084 - 1*0.031781252
+  seed=6: exact=False  expression=x**2*0.045738183 - 1*0.03828198
+  seed=7: exact=False  expression=x**2*(x*x - 0.86178833)**4
+  seed=8: exact=False  expression=(-x - 0.2569749)*(x**2 - 0.74528134)**4
+  seed=9: exact=False  expression=x**4*(x**8 - x**2)**4
+  seed=10: exact=False  expression=x*(-(0.9972208 - x**2)**32 - 0.001336602)
+  seed=11: exact=False  expression=((x**2 - 1*0.9281155)**2 - 0.2905876)**4
+  seed=12: exact=False  expression=(x - 1*(-1.0753499))**32*(-x*x**4 + x)**32
+  seed=13: exact=False  expression=(x**2 - 0.6332476)**4
+  seed=14: exact=False  expression=-(-0.02923867)*x**2 - 0.019943716
+  seed=15: exact=False  expression=0.033423923 - 0.041984685*x**2
+  seed=16: exact=False  expression=(0.24024196 - (x + 0.045553844)**4)**2*((x*x + 0.045553844)**2 - 1.0448973)**2
+  seed=17: exact=False  expression=(x - 2.3498347)**16*(-x*x - x + x - 1*(-0.62666684))**32
+  seed=18: exact=False  expression=0.056885697 - 0.05819151*x**2
+  seed=19: exact=False  expression=x**2*(0.95728415 - 1.3041531*x)**16*(x + 1.0240912)**16
+  seed=20: exact=False  expression=(0.041117176 - (x*(x*(-x + x) + x + x) - 1*0.48345655)**2)*(x*(-x + x + x) - 1*0.99652845)**4
+  seed=21: exact=False  expression=(0.9158326 - x*x)**16*(-x + (0.57268727 - (-0.7470211)*x)*(-0.85809225))**16
+  seed=22: exact=False  expression=(x**2 - 0.77304363)**8
+  seed=23: exact=False  expression=3.9069177766648e-5*(-x**2*(0.9568153 - x**2)**2*(x + x + 0.980854)**4 + x)**8
+  seed=24: exact=False  expression=x*(0.6886052 - x**2)**4
+  seed=25: exact=False  expression=x**4*(1.0864973 - x**2)**4
+  seed=26: exact=False  expression=(x**2 - 1*0.7795254)**8
+  seed=27: exact=False  expression=(x**2 - 1*0.57899946)**2*(-0.1634755) - 1*(-0.030344062)
+  seed=28: exact=False  expression=x*0.00403112 - (x + (x + x - 1*(-0.7205434))**2)**2*(x**2 - 1*0.69552785)**8
+  seed=29: exact=False  expression=((x**2 - (1.1230769 - x**2))**2 - 0.8599454)**16
+
+Circle exact recovery: 0% 95% CI [0%, 11%]
+
+============================================================
+Experiment 2: F = ma  (F - m*a = 0)
+Expected result: PASS  (single-valued, explicit relation)
+============================================================
+N=5000, seeds=30, niterations=20
+
+  seed=0: exact=True  expression=a*m
+  seed=1: exact=True  expression=a*m
+  seed=2: exact=True  expression=a*m
+  seed=3: exact=True  expression=a*m
+  seed=4: exact=True  expression=a*m
+  seed=5: exact=True  expression=a*m
+  seed=6: exact=True  expression=a*m
+  seed=7: exact=True  expression=a*m
+  seed=8: exact=True  expression=a*m
+  seed=9: exact=True  expression=a*m
+  seed=10: exact=True  expression=a*m
+  seed=11: exact=True  expression=a*m
+  seed=12: exact=True  expression=a*m
+  seed=13: exact=True  expression=a*m
+  seed=14: exact=True  expression=a*m
+  seed=15: exact=True  expression=a*m
+  seed=16: exact=True  expression=a*m
+  seed=17: exact=True  expression=a*m
+  seed=18: exact=True  expression=a*m
+  seed=19: exact=True  expression=a*m
+  seed=20: exact=True  expression=a*m
+  seed=21: exact=True  expression=a*m
+  seed=22: exact=True  expression=a*m
+  seed=23: exact=True  expression=a*m
+  seed=24: exact=True  expression=a*m
+  seed=25: exact=True  expression=a*m
+  seed=26: exact=True  expression=a*m
+  seed=27: exact=True  expression=a*m
+  seed=28: exact=True  expression=a*m
+  seed=29: exact=True  expression=a*m
+
+F=ma exact recovery: 100% 95% CI [89%, 100%]
+
+============================================================
+COMBINED SUMMARY
+============================================================
+Experiment Exact recovery  Seeds
+    circle           0.0%     30
+       fma         100.0%     30
+
+Interpretation:
+  F=ma  succeeds → PySR-GB works for single-valued explicit relations.
+  Circle fails   → PySR-GB cannot handle multi-valued implicit varieties.
+  SR-GB handles both by working directly in the polynomial nullspace,
+  treating all variables symmetrically without designating a target.
+
+All results saved to Results/pysr_gb_*_results.csv

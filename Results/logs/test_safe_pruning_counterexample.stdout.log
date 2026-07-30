@@ -1,0 +1,5 @@
+Pruning is not a no-op: removed 1 of 6
+Counterexample reproduced: x^2 pruned, y survives, matches NF_G(x^2) = y.
+grevlex leading monomial correctly identified as h*nu, not E.
+Degree-3 monomials not divisible by the confirmed LM survive pruning, as required.
+All safe-pruning counterexample tests passed.

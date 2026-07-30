@@ -1,0 +1,8 @@
+Harmonic Oscillator: SR-GB vs SINDy-null, ST, FD
+
+HarmonicOscillator (σ=0.0)
+  SR-GB+CSNP: 100% 95% CI [89%, 100%]
+  SINDy-null: 0% 95% CI [0%, 11%]
+  SINDy-st: 0% 95% CI [0%, 11%]
+  SINDy-fd_state: 100% 95% CI [89%, 100%]
+  SINDy-fd_transition: 100% 95% CI [89%, 100%]

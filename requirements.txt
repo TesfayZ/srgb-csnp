@@ -1,0 +1,36 @@
+# Core dependencies — required for the pipeline (sr_gb.py) and every
+# benchmark/ablation/test script. Colab ships recent versions of most of
+# these already; pins below reflect the environment these results were
+# generated/validated on.
+numpy==2.4.6
+scipy==1.17.1
+sympy==1.14.0
+scikit-learn==1.9.0
+pandas==3.0.3
+matplotlib==3.10.9
+
+# Optional — only needed for specific registered benchmarks
+# (see SCRIPTS dict in run_all_experiments.py). Each script degrades to
+# stub/dummy behavior or a soft-pass if its optional package is missing,
+# so the pipeline still runs without these, but results from the
+# corresponding benchmark are not meaningful without them:
+#
+#   mujoco       -> benchmark_robotics.py (real trajectories; without it,
+#                   robot_data.py raises RuntimeError rather than
+#                   fabricating data, so the benchmark aborts loudly)
+#   z3-solver    -> benchmark_smt_verification.py (real SMT check; without
+#                   it, verification.py silently soft-passes as True)
+#   pysr         -> benchmark_pysr_gb_implicit_vs_explicit.py (pulls in
+#                   juliacall/juliapkg, which install and precompile a
+#                   Julia runtime on first use -- expect a slow first run)
+mujoco==3.3.7
+z3-solver==4.13.3.0
+pysr==1.5.10
+
+# Optional — only needed to (re)simulate the biochemical systems in
+# bio_chem_attempts.py, and only when the cached trajectory CSVs in
+# crn_data/ and glycolysis_data/ are absent. bio_chem_attempts.py is an
+# exploratory attempt, deliberately NOT wired into run_all_experiments.py.
+# Uncomment if you run that script and need to resimulate from SBML.
+# tellurium==2.2.13
+# libroadrunner==2.9.2

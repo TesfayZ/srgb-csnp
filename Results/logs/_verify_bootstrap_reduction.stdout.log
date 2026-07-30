@@ -1,0 +1,38 @@
+done I.8.2 (running totals: reduced=1s full=1s)
+done I.9.18 (running totals: reduced=2s full=2s)
+CHANGED: I.12.1 sigma=0.05 seed=1 null: False->True
+CHANGED: I.12.1 sigma=0.05 seed=4 null: False->True
+done I.12.1 (running totals: reduced=3s full=4s)
+done I.12.2 (running totals: reduced=3s full=4s)
+done I.13.1 (running totals: reduced=3s full=5s)
+CHANGED: I.15.10 sigma=0.05 seed=0 null: False->True
+done I.15.10 (running totals: reduced=3s full=5s)
+done I.18.4 (running totals: reduced=3s full=6s)
+done I.34.1 (running totals: reduced=3s full=6s)
+done I.34.8 (running totals: reduced=4s full=7s)
+done I.34.14 (running totals: reduced=4s full=7s)
+done I.16.6 (running totals: reduced=4s full=8s)
+done II.11.28 (running totals: reduced=8s full=16s)
+done I.34.27 (running totals: reduced=9s full=19s)
+done I.41.16 (running totals: reduced=11s full=24s)
+done I.12.3 (running totals: reduced=11s full=24s)
+done I.12.4 (running totals: reduced=11s full=25s)
+done I.12.5 (running totals: reduced=13s full=31s)
+done I.13.4 (running totals: reduced=13s full=32s)
+done I.13.12 (running totals: reduced=14s full=33s)
+done I.14.3 (running totals: reduced=21s full=51s)
+done I.15.1 (running totals: reduced=22s full=53s)
+done I.26.2 (running totals: reduced=23s full=54s)
+done I.34.10 (running totals: reduced=32s full=85s)
+done I.6.2b (running totals: reduced=32s full=86s)
+done II.11.27 (running totals: reduced=32s full=86s)
+done I.43.31 (running totals: reduced=41s full=105s)
+
+======================================================================
+Summary
+======================================================================
+Total trials: 260
+SINDy-null: reduced rate=22.7%  full rate=23.8%  changed in 3/260 trials
+
+Wall time: reduced=41s full=105s (ratio 2.57x)
+Saved to Results/bootstrap_reduction_verification.csv

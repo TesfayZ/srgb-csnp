@@ -1,0 +1,41 @@
+Running FIXED deflation benchmark (σ=0.0, seeds=30)...
+  seed= 0: energy=True, ang_mom=True
+  seed= 1: energy=True, ang_mom=True
+  seed= 2: energy=True, ang_mom=True
+  seed= 3: energy=True, ang_mom=True
+  seed= 4: energy=True, ang_mom=True
+  seed= 5: energy=True, ang_mom=True
+  seed= 6: energy=True, ang_mom=True
+  seed= 7: energy=True, ang_mom=True
+  seed= 8: energy=True, ang_mom=True
+  seed= 9: energy=True, ang_mom=True
+  seed=10: energy=True, ang_mom=True
+  seed=11: energy=True, ang_mom=True
+  seed=12: energy=True, ang_mom=True
+  seed=13: energy=True, ang_mom=True
+  seed=14: energy=True, ang_mom=True
+  seed=15: energy=True, ang_mom=True
+  seed=16: energy=True, ang_mom=True
+  seed=17: energy=True, ang_mom=True
+  seed=18: energy=True, ang_mom=True
+  seed=19: energy=True, ang_mom=True
+  seed=20: energy=True, ang_mom=True
+  seed=21: energy=True, ang_mom=True
+  seed=22: energy=True, ang_mom=True
+  seed=23: energy=True, ang_mom=True
+  seed=24: energy=True, ang_mom=True
+  seed=25: energy=True, ang_mom=True
+  seed=26: energy=True, ang_mom=True
+  seed=27: energy=True, ang_mom=True
+  seed=28: energy=True, ang_mom=True
+  seed=29: energy=True, ang_mom=True
+
+============================================================
+Deflation Multi-Invariant Recovery (2D Harmonic Oscillator) via sr_gb()
+Energy (per-axis) recovered: 100% 95% CI [89%, 100%]
+Angular momentum recovered: 100% 95% CI [89%, 100%]
+Both recovered: 100% 95% CI [89%, 100%]
+Full 4-generator set recovered: 100% 95% CI [89%, 100%]
+SINDy-null (same dictionary) energy: 0% 95% CI [0%, 11%]
+SINDy-null (same dictionary) ang. mom.: 0% 95% CI [0%, 11%]
+============================================================

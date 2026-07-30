@@ -1,0 +1,24 @@
+<mujoco model="gravity_pendulum">
+  <!--
+    A REAL gravity pendulum (point mass on a rigid rod, hinge under gravity),
+    unlike pendulum.xml's harmonic oscillator. Its conserved energy is
+    0.5*qdot^2 - (g/L)*cos(q) (per unit moment of inertia): transcendental in
+    q, not polynomial of any bounded degree. SR-GB+CSNP only recovers
+    polynomial invariants (the method's reduced-Groebner-basis guarantee is
+    defined over a polynomial ring, see the paper's Limitations section), so
+    this model is the deliberate negative counterpart to pendulum.xml: real
+    MuJoCo rigid-body dynamics, same random-init/RK4/dt harness as
+    benchmark_robotics.py, but with no bounded-degree polynomial relation for
+    the pipeline to find. Large swings (init qpos in +-1 rad, see
+    robot_data.generate_robot_trajectories) keep the trajectory well outside
+    the small-angle regime where cos(q) ~ 1 - q^2/2 could locally masquerade
+    as quadratic.
+  -->
+  <option gravity="0 0 -9.81" integrator="RK4" timestep="0.01"/>
+  <worldbody>
+    <body name="pendulum" pos="0 0 0">
+      <joint name="q" type="hinge" axis="0 1 0" pos="0 0 0" damping="0"/>
+      <geom type="sphere" size="0.05" mass="1" pos="0 0 -1"/>
+    </body>
+  </worldbody>
+</mujoco>

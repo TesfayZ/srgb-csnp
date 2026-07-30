@@ -1,0 +1,7 @@
+system,sigma,mean_nodes_popped,mean_nodes_evaluated,mean_nodes_pruned_lb,mean_nodes_pruned_dominance,mean_nodes_not_pushed_lb,exact_rate,pruned_fraction_lb_at_pop,pruned_fraction_lb_at_push,pruned_fraction_dominance
+harmonic_oscillator_2d,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+harmonic_oscillator_2d,0.02,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+highd_sparse_rank2,0.0,30466.4,30466.4,0.0,0.0,11944.8,0.6,0.0,0.2816425849775531,0.0
+highd_sparse_rank2,0.02,33829.9,33829.9,0.0,0.0,113.4,0.6,0.0,0.003340865502175687,0.0
+kepler_angular_momentum,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+kepler_angular_momentum,0.02,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

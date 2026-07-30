@@ -1,0 +1,47 @@
+========================================================================
+ABLATION: Qmax (max_denom) and eps (snap tolerance) sensitivity
+seeds=30  N=5000  Qmax grid=[2, 4, 8, 16, 32, 64]  eps grid=[0.01, 0.001, 0.0001, 1e-05]
+========================================================================
+
+-- Arm A: recovery vs Qmax (sigma=0) --
+[A] circle (min_denom=1) done
+[A] ellipse_357 (min_denom=3) done
+[A] ellipse_5711 (min_denom=5) done
+[A] ellipse_71113 (min_denom=7) done
+[A] ellipse_131719 (min_denom=13) done
+[A] ellipse_171923 (min_denom=17) done
+
+-- Arm B: false-positive rate vs Qmax --
+[B] generic_cloud done
+[B] irrational_pi done
+
+-- Arm C: eps / tolerance sensitivity --
+[C] eps=0.01 done
+[C] eps=0.001 done
+[C] eps=0.0001 done
+[C] eps=1e-05 done
+
+=== Arm A: recovery rate by system x Qmax ===
+qmax             2    4    8    16   32   64
+system                                      
+circle         100% 100% 100% 100% 100% 100%
+ellipse_131719   0%   0%   0%   0% 100% 100%
+ellipse_171923   0%   0%   0%   0% 100% 100%
+ellipse_357      0%   0% 100% 100% 100% 100%
+ellipse_5711     0%   0%   0% 100% 100% 100%
+ellipse_71113    0%   0%   0% 100% 100% 100%
+
+=== Arm B: false-positive rate by system x Qmax ===
+qmax           2   4   8   16  32  64
+system                               
+generic_cloud  0%  0%  0%  0%  0%  0%
+irrational_pi  0%  0%  0%  0%  0%  0%
+
+=== Arm C: recovery / false-positive vs eps ===
+    eps  recovery_rate  k_rec  fp_rate  k_fp  n
+0.00001            1.0     30      0.0     0 30
+0.00010            1.0     30      0.0     0 30
+0.00100            1.0     30      0.0     0 30
+0.01000            1.0     30      0.0     0 30
+
+Results written to Results/ablation_qmax_*.csv and ablation_eps_*.csv

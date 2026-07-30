@@ -1,0 +1,20 @@
+
+=== Part 1: exact modified-equation gap (symbolic, no noise), range=full ===
+  symplectic_euler (formal order 1.0): fitted log-log slope = 1.0000
+  stormer_verlet (formal order 2.0): fitted log-log slope = 2.0029
+  explicit_euler: no exact conserved quadratic form (non-symplectic, energy drifts)
+  explicit_rk2: no exact conserved quadratic form (non-symplectic, energy drifts)
+
+=== Part 1: exact modified-equation gap (symbolic, no noise), range=leading_order ===
+  symplectic_euler (formal order 1.0): fitted log-log slope = 1.0000
+  stormer_verlet (formal order 2.0): fitted log-log slope = 2.0000
+  explicit_euler: no exact conserved quadratic form (non-symplectic, energy drifts)
+  explicit_rk2: no exact conserved quadratic form (non-symplectic, energy drifts)
+
+=== Part 2a: direct nullspace projection on sampled data (fast, unambiguous) ===
+  stormer_verlet (formal order 2): fitted log-log slope from sampled data = 2.0013
+  symplectic_euler (formal order 1): fitted log-log slope from sampled data = 1.0000
+
+=== Part 2 degeneracy probe (symplectic Euler, dt=0.05, seed=0, noiseless) ===
+  sr_gb() returned: [399*v_next**3/400 - 799*v_next**2*v_t/400 + v_next**2*x_next/20 + v_next*v_t**2 - v_next*v_t*x_next/20, -v_next**2 + v_next*v_t - x_next*x_t + x_t**2, 20*v_next**2 - 20*v_next*v_t + v_next*x_t]
+  matches true H (x_t^2+v_t^2-x_next^2-v_next^2) up to scalar: False

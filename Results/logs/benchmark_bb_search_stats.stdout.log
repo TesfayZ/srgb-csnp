@@ -1,0 +1,71 @@
+kepler   sigma=0.0   seed= 0 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 0 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 0 popped= 50758 eval= 50758 prune_lb=     0 prune_dom=     0 not_pushed= 19656 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.0   seed= 1 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 1 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 1 popped= 50758 eval= 50758 prune_lb=     0 prune_dom=     0 not_pushed= 19656 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.0   seed= 2 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 2 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 2 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.0   seed= 3 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 3 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 3 popped= 50758 eval= 50758 prune_lb=     0 prune_dom=     0 not_pushed= 19656 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.0   seed= 4 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 4 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 4 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.0   seed= 5 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 5 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 5 popped= 50758 eval= 50758 prune_lb=     0 prune_dom=     0 not_pushed= 19656 beam_ub=8.90689059560852 final_ub=5.0 exact=True
+kepler   sigma=0.0   seed= 6 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 6 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 6 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.0   seed= 7 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 7 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 7 popped= 50758 eval= 50758 prune_lb=     0 prune_dom=     0 not_pushed= 19656 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.0   seed= 8 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 8 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 8 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.0   seed= 9 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+harmonic sigma=0.0   seed= 9 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=True
+highd    sigma=0.0   seed= 9 popped= 50758 eval= 50758 prune_lb=     0 prune_dom=     0 not_pushed= 19656 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.02  seed= 0 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 0 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 0 popped= 48316 eval= 48316 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.02  seed= 1 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 1 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 1 popped= 48316 eval= 48316 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.02  seed= 2 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 2 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 2 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+kepler   sigma=0.02  seed= 3 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 3 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 3 popped= 72474 eval= 72474 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.02  seed= 4 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 4 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 4 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.02  seed= 5 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 5 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 5 popped= 48316 eval= 48316 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.02  seed= 6 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 6 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 6 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.02  seed= 7 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 7 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 7 popped= 48316 eval= 48316 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=5.0 exact=True
+kepler   sigma=0.02  seed= 8 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 8 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 8 popped=    29 eval=    29 prune_lb=     0 prune_dom=     0 not_pushed=   378 beam_ub=1.0 final_ub=1.0 exact=False
+kepler   sigma=0.02  seed= 9 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+harmonic sigma=0.02  seed= 9 popped=     0 eval=     0 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=None exact=False
+highd    sigma=0.02  seed= 9 popped= 48316 eval= 48316 prune_lb=     0 prune_dom=     0 not_pushed=     0 beam_ub=None final_ub=5.0 exact=True
+
+====================================================================================================
+BB Search Statistics Summary
+====================================================================================================
+                 system  sigma  mean_nodes_popped  mean_nodes_evaluated  mean_nodes_pruned_lb  mean_nodes_pruned_dominance  mean_nodes_not_pushed_lb  exact_rate  pruned_fraction_lb_at_pop  pruned_fraction_lb_at_push  pruned_fraction_dominance
+ harmonic_oscillator_2d   0.00                0.0                   0.0                   0.0                          0.0                       0.0         1.0                        0.0                    0.000000                        0.0
+ harmonic_oscillator_2d   0.02                0.0                   0.0                   0.0                          0.0                       0.0         0.0                        0.0                    0.000000                        0.0
+     highd_sparse_rank2   0.00            30466.4               30466.4                   0.0                          0.0                   11944.8         0.6                        0.0                    0.281643                        0.0
+     highd_sparse_rank2   0.02            31414.1               31414.1                   0.0                          0.0                     113.4         0.6                        0.0                    0.003597                        0.0
+kepler_angular_momentum   0.00                0.0                   0.0                   0.0                          0.0                       0.0         1.0                        0.0                    0.000000                        0.0
+kepler_angular_momentum   0.02                0.0                   0.0                   0.0                          0.0                       0.0         0.0                        0.0                    0.000000                        0.0

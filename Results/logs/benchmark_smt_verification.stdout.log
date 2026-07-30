@@ -1,0 +1,33 @@
+Seed 0: exact=True, smt=True
+Seed 1: exact=True, smt=True
+Seed 2: exact=True, smt=True
+Seed 3: exact=True, smt=True
+Seed 4: exact=True, smt=True
+Seed 5: exact=True, smt=True
+Seed 6: exact=True, smt=True
+Seed 7: exact=True, smt=True
+Seed 8: exact=True, smt=True
+Seed 9: exact=True, smt=True
+Seed 10: exact=True, smt=True
+Seed 11: exact=True, smt=True
+Seed 12: exact=True, smt=True
+Seed 13: exact=True, smt=True
+Seed 14: exact=True, smt=True
+Seed 15: exact=True, smt=True
+Seed 16: exact=True, smt=True
+Seed 17: exact=True, smt=True
+Seed 18: exact=True, smt=True
+Seed 19: exact=True, smt=True
+Seed 20: exact=True, smt=True
+Seed 21: exact=True, smt=True
+Seed 22: exact=True, smt=True
+Seed 23: exact=True, smt=True
+Seed 24: exact=True, smt=True
+Seed 25: exact=True, smt=True
+Seed 26: exact=True, smt=True
+Seed 27: exact=True, smt=True
+Seed 28: exact=True, smt=True
+Seed 29: exact=True, smt=True
+
+Exact recovery: 100% 95% CI [89%, 100%]
+SMT verified:  100% 95% CI [89%, 100%]

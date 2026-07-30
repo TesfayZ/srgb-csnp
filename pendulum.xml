@@ -1,0 +1,21 @@
+<mujoco model="harmonic_oscillator">
+  <!--
+    1-DOF spring-mass system, not a gravity pendulum: with m=k=1 and no
+    damping/gravity, energy 0.5*(q^2+qdot^2) is conserved by the true
+    dynamics and is polynomial in (q, qdot), matching the invariant assumed
+    by benchmark_robotics.py's pendulum_invariant(). A real gravity pendulum's
+    energy involves cos(q), which is not polynomial and SR-GB+CSNP (which
+    only recovers polynomial invariants) could never recover.
+    RK4 keeps the discrete trajectory close enough to the continuous flow
+    (residual ~dt^4) that the conserved quantity is exactly recoverable at
+    the default eps/threshold, rather than picking up an O(dt) integrator
+    artifact the way the default semi-implicit Euler integrator would.
+  -->
+  <option gravity="0 0 0" integrator="RK4" timestep="0.01"/>
+  <worldbody>
+    <body name="mass" pos="0 0 0">
+      <joint name="q" type="slide" axis="1 0 0" stiffness="1" damping="0"/>
+      <geom type="sphere" size="0.05" mass="1"/>
+    </body>
+  </worldbody>
+</mujoco>

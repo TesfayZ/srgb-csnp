@@ -1,0 +1,17 @@
+Running OMP vs CSNP benchmark with 30 seeds...
+
+======================================================================
+OMP vs CSNP Nullspace Recovery Benchmark
+======================================================================
+Seeds per problem: 30
+Samples per run: 5000
+
+            problem  csnp_rate  omp_rate  n_seeds  csnp_ci_low  csnp_ci_high  omp_ci_low  omp_ci_high
+harmonic_oscillator        1.0       0.0       30     0.886487           1.0    0.000000     0.113513
+             kepler        1.0       1.0       30     0.886487           1.0    0.886487     1.000000
+======================================================================
+
+Results saved to Results/omp_nullspace_*.csv
+
+OMP harmonic oscillator recovery: 0% 
+OMP Kepler recovery: 100% 

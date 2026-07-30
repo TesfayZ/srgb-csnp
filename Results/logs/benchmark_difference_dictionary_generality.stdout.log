@@ -1,0 +1,38 @@
+Difference-dictionary generality probe (30 seeds, sigma in [0.0, 0.01, 0.02, 0.05])
+symplectic_euler  dt=0.1   sigma=0.00: Q_dt 30/30, H 0/30  (Q_dt = v**2 - v*x/10 + x**2)
+symplectic_euler  dt=0.1   sigma=0.01: Q_dt 0/30, H 0/30  (Q_dt = v**2 - v*x/10 + x**2)
+symplectic_euler  dt=0.1   sigma=0.02: Q_dt 0/30, H 0/30  (Q_dt = v**2 - v*x/10 + x**2)
+symplectic_euler  dt=0.1   sigma=0.05: Q_dt 0/30, H 0/30  (Q_dt = v**2 - v*x/10 + x**2)
+symplectic_euler  dt=0.5   sigma=0.00: Q_dt 30/30, H 0/30  (Q_dt = v**2 - v*x/2 + x**2)
+symplectic_euler  dt=0.5   sigma=0.01: Q_dt 30/30, H 0/30  (Q_dt = v**2 - v*x/2 + x**2)
+symplectic_euler  dt=0.5   sigma=0.02: Q_dt 30/30, H 0/30  (Q_dt = v**2 - v*x/2 + x**2)
+symplectic_euler  dt=0.5   sigma=0.05: Q_dt 30/30, H 0/30  (Q_dt = v**2 - v*x/2 + x**2)
+stormer_verlet    dt=0.5   sigma=0.00: Q_dt 30/30, H 0/30  (Q_dt = 16*v**2/15 + x**2)
+stormer_verlet    dt=0.5   sigma=0.01: Q_dt 30/30, H 0/30  (Q_dt = 16*v**2/15 + x**2)
+stormer_verlet    dt=0.5   sigma=0.02: Q_dt 28/30, H 0/30  (Q_dt = 16*v**2/15 + x**2)
+stormer_verlet    dt=0.5   sigma=0.05: Q_dt 0/30, H 29/30  (Q_dt = 16*v**2/15 + x**2)
+stormer_verlet    dt=1.0   sigma=0.00: Q_dt 30/30, H 0/30  (Q_dt = 4*v**2/3 + x**2)
+stormer_verlet    dt=1.0   sigma=0.01: Q_dt 30/30, H 0/30  (Q_dt = 4*v**2/3 + x**2)
+stormer_verlet    dt=1.0   sigma=0.02: Q_dt 30/30, H 0/30  (Q_dt = 4*v**2/3 + x**2)
+stormer_verlet    dt=1.0   sigma=0.05: Q_dt 30/30, H 0/30  (Q_dt = 4*v**2/3 + x**2)
+
+=== Rates ===
+      integrator  dt  sigma  Qdt_rate   H_rate  mean_generators  Qdt_ci_low  Qdt_ci_high
+  stormer_verlet 0.5   0.00  1.000000 0.000000              1.0    0.886487     1.000000
+  stormer_verlet 0.5   0.01  1.000000 0.000000              1.0    0.886487     1.000000
+  stormer_verlet 0.5   0.02  0.933333 0.000000              1.0    0.786765     0.981523
+  stormer_verlet 0.5   0.05  0.000000 0.966667              1.0    0.000000     0.113513
+  stormer_verlet 1.0   0.00  1.000000 0.000000              1.0    0.886487     1.000000
+  stormer_verlet 1.0   0.01  1.000000 0.000000              1.0    0.886487     1.000000
+  stormer_verlet 1.0   0.02  1.000000 0.000000              1.0    0.886487     1.000000
+  stormer_verlet 1.0   0.05  1.000000 0.000000              1.0    0.886487     1.000000
+symplectic_euler 0.1   0.00  1.000000 0.000000              1.0    0.886487     1.000000
+symplectic_euler 0.1   0.01  0.000000 0.000000              0.0    0.000000     0.113513
+symplectic_euler 0.1   0.02  0.000000 0.000000              0.0    0.000000     0.113513
+symplectic_euler 0.1   0.05  0.000000 0.000000              0.0    0.000000     0.113513
+symplectic_euler 0.5   0.00  1.000000 0.000000              1.0    0.886487     1.000000
+symplectic_euler 0.5   0.01  1.000000 0.000000              1.0    0.886487     1.000000
+symplectic_euler 0.5   0.02  1.000000 0.000000              1.0    0.886487     1.000000
+symplectic_euler 0.5   0.05  1.000000 0.000000              1.0    0.886487     1.000000
+
+Saved to Results/difference_dictionary_generality_*.csv

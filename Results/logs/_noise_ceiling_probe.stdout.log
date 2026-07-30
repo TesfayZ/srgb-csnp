@@ -1,0 +1,113 @@
+I.9.18 (deg 2)   sigma=0.0    seed=0 s_min=5.0617e-14 gap_ratio=148872692510413.31 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=1 s_min=5.1415e-14 gap_ratio=140746854153995.03 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=2 s_min=5.2126e-14 gap_ratio=139066763071817.56 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=3 s_min=2.0581e-14 gap_ratio=351834887897997.69 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=4 s_min=4.5248e-14 gap_ratio=158440816406482.25 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=5 s_min=3.6567e-14 gap_ratio=206480715282605.12 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=6 s_min=5.7102e-14 gap_ratio=129738661215072.16 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=7 s_min=1.6716e-14 gap_ratio=422624613512521.25 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=8 s_min=3.2369e-14 gap_ratio=224849102130070.59 err=0.0000
+I.9.18 (deg 2)   sigma=0.0    seed=9 s_min=4.5619e-14 gap_ratio=156758771457269.78 err=0.0000
+I.9.18 (deg 2)   sigma=0.005  seed=0 s_min=9.5311e-01 gap_ratio=    7.91 err=0.0025
+I.9.18 (deg 2)   sigma=0.005  seed=1 s_min=9.3091e-01 gap_ratio=    7.77 err=0.0071
+I.9.18 (deg 2)   sigma=0.005  seed=2 s_min=9.6029e-01 gap_ratio=    7.55 err=0.0018
+I.9.18 (deg 2)   sigma=0.005  seed=3 s_min=9.6386e-01 gap_ratio=    7.51 err=0.0048
+I.9.18 (deg 2)   sigma=0.005  seed=4 s_min=9.5094e-01 gap_ratio=    7.54 err=0.0034
+I.9.18 (deg 2)   sigma=0.005  seed=5 s_min=9.5558e-01 gap_ratio=    7.90 err=0.0027
+I.9.18 (deg 2)   sigma=0.005  seed=6 s_min=9.6432e-01 gap_ratio=    7.68 err=0.0028
+I.9.18 (deg 2)   sigma=0.005  seed=7 s_min=9.5937e-01 gap_ratio=    7.37 err=0.0073
+I.9.18 (deg 2)   sigma=0.005  seed=8 s_min=9.5672e-01 gap_ratio=    7.61 err=0.0057
+I.9.18 (deg 2)   sigma=0.005  seed=9 s_min=9.4931e-01 gap_ratio=    7.53 err=0.0025
+I.9.18 (deg 2)   sigma=0.01   seed=0 s_min=1.9059e+00 gap_ratio=    3.96 err=0.0090
+I.9.18 (deg 2)   sigma=0.01   seed=1 s_min=1.8606e+00 gap_ratio=    3.89 err=0.0223
+I.9.18 (deg 2)   sigma=0.01   seed=2 s_min=1.9200e+00 gap_ratio=    3.78 err=0.0118
+I.9.18 (deg 2)   sigma=0.01   seed=3 s_min=1.9269e+00 gap_ratio=    3.76 err=0.0178
+I.9.18 (deg 2)   sigma=0.01   seed=4 s_min=1.9010e+00 gap_ratio=    3.77 err=0.0155
+I.9.18 (deg 2)   sigma=0.01   seed=5 s_min=1.9111e+00 gap_ratio=    3.95 err=0.0073
+I.9.18 (deg 2)   sigma=0.01   seed=6 s_min=1.9279e+00 gap_ratio=    3.84 err=0.0137
+I.9.18 (deg 2)   sigma=0.01   seed=7 s_min=1.9177e+00 gap_ratio=    3.69 err=0.0226
+I.9.18 (deg 2)   sigma=0.01   seed=8 s_min=1.9123e+00 gap_ratio=    3.81 err=0.0201
+I.9.18 (deg 2)   sigma=0.01   seed=9 s_min=1.8982e+00 gap_ratio=    3.77 err=0.0131
+I.9.18 (deg 2)   sigma=0.02   seed=0 s_min=3.8063e+00 gap_ratio=    1.99 err=0.0581
+I.9.18 (deg 2)   sigma=0.02   seed=1 s_min=3.7100e+00 gap_ratio=    1.96 err=0.0961
+I.9.18 (deg 2)   sigma=0.02   seed=2 s_min=3.8327e+00 gap_ratio=    1.90 err=0.0720
+I.9.18 (deg 2)   sigma=0.02   seed=3 s_min=3.8447e+00 gap_ratio=    1.89 err=0.0879
+I.9.18 (deg 2)   sigma=0.02   seed=4 s_min=3.7931e+00 gap_ratio=    1.90 err=0.0825
+I.9.18 (deg 2)   sigma=0.02   seed=5 s_min=3.8179e+00 gap_ratio=    1.98 err=0.0533
+I.9.18 (deg 2)   sigma=0.02   seed=6 s_min=3.8477e+00 gap_ratio=    1.93 err=0.0763
+I.9.18 (deg 2)   sigma=0.02   seed=7 s_min=3.8243e+00 gap_ratio=    1.86 err=0.1011
+I.9.18 (deg 2)   sigma=0.02   seed=8 s_min=3.8139e+00 gap_ratio=    1.92 err=0.0928
+I.9.18 (deg 2)   sigma=0.02   seed=9 s_min=3.7893e+00 gap_ratio=    1.89 err=0.0764
+I.9.18 (deg 2)   sigma=0.05   seed=0 s_min=7.5081e+00 gap_ratio=    1.29 err=13.4536
+I.9.18 (deg 2)   sigma=0.05   seed=1 s_min=7.1308e+00 gap_ratio=    1.34 err=10.5940
+I.9.18 (deg 2)   sigma=0.05   seed=2 s_min=7.2577e+00 gap_ratio=    1.34 err=17.1125
+I.9.18 (deg 2)   sigma=0.05   seed=3 s_min=7.1852e+00 gap_ratio=    1.37 err=15.7500
+I.9.18 (deg 2)   sigma=0.05   seed=4 s_min=7.1190e+00 gap_ratio=    1.36 err=16.1485
+I.9.18 (deg 2)   sigma=0.05   seed=5 s_min=7.4937e+00 gap_ratio=    1.30 err=14.7779
+I.9.18 (deg 2)   sigma=0.05   seed=6 s_min=7.3301e+00 gap_ratio=    1.34 err=14.7123
+I.9.18 (deg 2)   sigma=0.05   seed=7 s_min=7.0319e+00 gap_ratio=    1.39 err=16.2113
+I.9.18 (deg 2)   sigma=0.05   seed=8 s_min=7.2386e+00 gap_ratio=    1.35 err=13.0666
+I.9.18 (deg 2)   sigma=0.05   seed=9 s_min=7.1091e+00 gap_ratio=    1.36 err=17.3527
+I.12.3 (deg 3)   sigma=0.0    seed=0 s_min=1.7296e-12 gap_ratio=85032817583.49 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=1 s_min=1.2602e-12 gap_ratio=116267849476.92 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=2 s_min=1.7055e-12 gap_ratio=86136355572.92 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=3 s_min=1.3055e-12 gap_ratio=112380204732.17 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=4 s_min=1.6934e-12 gap_ratio=87531902750.45 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=5 s_min=1.4248e-12 gap_ratio=102758701056.54 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=6 s_min=1.9396e-12 gap_ratio=75883745485.85 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=7 s_min=1.6712e-12 gap_ratio=87444274042.02 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=8 s_min=1.4527e-12 gap_ratio=103528617949.55 err=0.0000
+I.12.3 (deg 3)   sigma=0.0    seed=9 s_min=1.1823e-12 gap_ratio=123721311557.13 err=0.0000
+I.12.3 (deg 3)   sigma=0.005  seed=0 s_min=1.4751e-01 gap_ratio=    4.85 err=58901.5266
+I.12.3 (deg 3)   sigma=0.005  seed=1 s_min=1.4659e-01 gap_ratio=    4.84 err=2673.5426
+I.12.3 (deg 3)   sigma=0.005  seed=2 s_min=1.4711e-01 gap_ratio=    4.71 err=2295.6261
+I.12.3 (deg 3)   sigma=0.005  seed=3 s_min=1.4700e-01 gap_ratio=    4.85 err=1760.0453
+I.12.3 (deg 3)   sigma=0.005  seed=4 s_min=1.4881e-01 gap_ratio=    4.89 err=572.7993
+I.12.3 (deg 3)   sigma=0.005  seed=5 s_min=1.4657e-01 gap_ratio=    4.77 err=9820.2398
+I.12.3 (deg 3)   sigma=0.005  seed=6 s_min=1.4750e-01 gap_ratio=    4.77 err=1653.9824
+I.12.3 (deg 3)   sigma=0.005  seed=7 s_min=1.4628e-01 gap_ratio=    4.84 err=863.8795
+I.12.3 (deg 3)   sigma=0.005  seed=8 s_min=1.5108e-01 gap_ratio=    4.68 err=2345.1027
+I.12.3 (deg 3)   sigma=0.005  seed=9 s_min=1.4653e-01 gap_ratio=    4.81 err=635.7096
+I.12.3 (deg 3)   sigma=0.01   seed=0 s_min=1.4855e-01 gap_ratio=    4.83 err=16433.4741
+I.12.3 (deg 3)   sigma=0.01   seed=1 s_min=1.4724e-01 gap_ratio=    4.83 err=4191.9332
+I.12.3 (deg 3)   sigma=0.01   seed=2 s_min=1.4791e-01 gap_ratio=    4.69 err=4296.6389
+I.12.3 (deg 3)   sigma=0.01   seed=3 s_min=1.4795e-01 gap_ratio=    4.83 err=15719.9411
+I.12.3 (deg 3)   sigma=0.01   seed=4 s_min=1.5002e-01 gap_ratio=    4.87 err=923.0960
+I.12.3 (deg 3)   sigma=0.01   seed=5 s_min=1.4734e-01 gap_ratio=    4.75 err=8231.7195
+I.12.3 (deg 3)   sigma=0.01   seed=6 s_min=1.4844e-01 gap_ratio=    4.75 err=4033.9981
+I.12.3 (deg 3)   sigma=0.01   seed=7 s_min=1.4702e-01 gap_ratio=    4.83 err=2251.6268
+I.12.3 (deg 3)   sigma=0.01   seed=8 s_min=1.5235e-01 gap_ratio=    4.65 err=5080.7887
+I.12.3 (deg 3)   sigma=0.01   seed=9 s_min=1.4738e-01 gap_ratio=    4.79 err=876.2779
+I.12.3 (deg 3)   sigma=0.02   seed=0 s_min=1.5244e-01 gap_ratio=    4.76 err=6556.7434
+I.12.3 (deg 3)   sigma=0.02   seed=1 s_min=1.5032e-01 gap_ratio=    4.77 err=4127.2955
+I.12.3 (deg 3)   sigma=0.02   seed=2 s_min=1.5125e-01 gap_ratio=    4.62 err=8100.3441
+I.12.3 (deg 3)   sigma=0.02   seed=3 s_min=1.5171e-01 gap_ratio=    4.74 err=6557.5421
+I.12.3 (deg 3)   sigma=0.02   seed=4 s_min=1.5417e-01 gap_ratio=    4.78 err=1587.1156
+I.12.3 (deg 3)   sigma=0.02   seed=5 s_min=1.5065e-01 gap_ratio=    4.68 err=9139.0757
+I.12.3 (deg 3)   sigma=0.02   seed=6 s_min=1.5209e-01 gap_ratio=    4.67 err=9643.4814
+I.12.3 (deg 3)   sigma=0.02   seed=7 s_min=1.5021e-01 gap_ratio=    4.77 err=43548.0700
+I.12.3 (deg 3)   sigma=0.02   seed=8 s_min=1.5664e-01 gap_ratio=    4.57 err=20918.1255
+I.12.3 (deg 3)   sigma=0.02   seed=9 s_min=1.5081e-01 gap_ratio=    4.72 err=1170.5808
+I.12.3 (deg 3)   sigma=0.05   seed=0 s_min=1.7759e-01 gap_ratio=    4.31 err=5421.0278
+I.12.3 (deg 3)   sigma=0.05   seed=1 s_min=1.7266e-01 gap_ratio=    4.38 err=2562.1729
+I.12.3 (deg 3)   sigma=0.05   seed=2 s_min=1.7435e-01 gap_ratio=    4.21 err=24668.1825
+I.12.3 (deg 3)   sigma=0.05   seed=3 s_min=1.7645e-01 gap_ratio=    4.28 err=6409.5347
+I.12.3 (deg 3)   sigma=0.05   seed=4 s_min=1.7939e-01 gap_ratio=    4.34 err=11660.8926
+I.12.3 (deg 3)   sigma=0.05   seed=5 s_min=1.7394e-01 gap_ratio=    4.26 err=224211.8693
+I.12.3 (deg 3)   sigma=0.05   seed=6 s_min=1.7602e-01 gap_ratio=    4.23 err=10101.7938
+I.12.3 (deg 3)   sigma=0.05   seed=7 s_min=1.7242e-01 gap_ratio=    4.38 err=3378.6252
+I.12.3 (deg 3)   sigma=0.05   seed=8 s_min=1.8292e-01 gap_ratio=    4.13 err=25062.9708
+I.12.3 (deg 3)   sigma=0.05   seed=9 s_min=1.7376e-01 gap_ratio=    4.31 err=2371.9376
+
+==========================================================================================
+        system  degree  sigma  mean_coeff_l2_error  std_coeff_l2_error  mean_gap_ratio
+I.12.3 (deg 3)       3  0.000         3.182012e-13        6.140292e-13    9.806858e+10
+I.12.3 (deg 3)       3  0.005         8.152245e+03        1.803227e+04    4.801460e+00
+I.12.3 (deg 3)       3  0.010         6.203949e+03        5.625909e+03    4.781547e+00
+I.12.3 (deg 3)       3  0.020         1.113484e+04        1.266319e+04    4.705904e+00
+I.12.3 (deg 3)       3  0.050         3.158490e+04        6.820205e+04    4.283169e+00
+I.9.18 (deg 2)       2  0.000         1.927919e-15        8.810997e-16    2.079414e+14
+I.9.18 (deg 2)       2  0.005         4.059574e-03        2.017167e-03    7.638489e+00
+I.9.18 (deg 2)       2  0.010         1.532163e-02        5.325714e-03    3.823483e+00
+I.9.18 (deg 2)       2  0.020         7.966082e-02        1.569041e-02    1.922763e+00
+I.9.18 (deg 2)       2  0.050         1.491794e+01        2.080431e+00    1.342358e+00

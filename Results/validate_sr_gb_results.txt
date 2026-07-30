@@ -1,0 +1,13 @@
+Validation run at 2026-07-23T14:58:06.501341
+10/10 tests passed
+
+PASS  entangled_multi_invariant
+PASS  entangled_multi_invariant_with_noise
+PASS  single_invariant_no_spurious_growth
+PASS  three_invariants_no_linear_combo_redundancy
+PASS  bb_fires_by_default_fallback
+PASS  noise_robustness_circle
+PASS  ps3_like_large_dynamic_range
+PASS  bb_fires_high_d_sparse
+PASS  prebuilt_phi_difference_library
+PASS  noisy_oracle_guard

@@ -1,0 +1,5 @@
+Benchmarking Kepler angular momentum (analytic solution) – fully automatic CSNP
+Exact recovery rate: 100% 95% CI [89%, 100%]
+Results saved to Results/kepler_angular_momentum_results.csv
+
+Exact recovery rate: 100%, Redundancy: 1.0

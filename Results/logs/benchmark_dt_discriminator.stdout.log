@@ -1,0 +1,19 @@
+
+=== mode: exact_flow ===
+  30 seeds in 41.3s
+
+=== mode: fixed_dt_symplectic_euler ===
+  30 seeds in 44.4s
+
+=== mode: variable_dt ===
+  30 seeds in 25.0s
+
+======================================================================
+Fixed-dt vs variable-dt discriminator summary
+======================================================================
+                     mode  csnp_rate  omp_rate  sindy_null_rate  n_seeds
+               exact_flow        1.0       0.0              0.0       30
+fixed_dt_symplectic_euler        0.0       0.0              0.0       30
+              variable_dt        0.0       0.0              0.0       30
+
+Saved to Results/dt_discriminator_*.csv

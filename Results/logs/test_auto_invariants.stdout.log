@@ -1,0 +1,47 @@
+======================================================================
+Automatic invariant discovery (CSNP, no expected_support)
+======================================================================
+
+1. Harmonic oscillator (energy invariant)
+   Data: random rotation angle per sample -> well-posed
+Recovered: -v_next**2 + v_t**2 - x_next**2 + x_t**2
+Exact recovery: True
+
+2. Kepler angular momentum invariant
+   Data: analytic Kepler transitions -> null_dim = 1
+Recovered: -vx_next*y_next + vx_t*y_t + vy_next*x_next - vy_t*x_t
+Exact recovery: True
+
+3. Harmonic oscillator – multiple seeds (auto mode)
+  seed=0: exact=True
+  seed=1: exact=True
+  seed=2: exact=True
+  seed=3: exact=True
+  seed=4: exact=True
+  seed=5: exact=True
+  seed=6: exact=True
+  seed=7: exact=True
+  seed=8: exact=True
+  seed=9: exact=True
+  seed=10: exact=True
+  seed=11: exact=True
+  seed=12: exact=True
+  seed=13: exact=True
+  seed=14: exact=True
+  seed=15: exact=True
+  seed=16: exact=True
+  seed=17: exact=True
+  seed=18: exact=True
+  seed=19: exact=True
+  seed=20: exact=True
+  seed=21: exact=True
+  seed=22: exact=True
+  seed=23: exact=True
+  seed=24: exact=True
+  seed=25: exact=True
+  seed=26: exact=True
+  seed=27: exact=True
+  seed=28: exact=True
+  seed=29: exact=True
+Exact recovery rate (auto): 100% 95% CI [89%, 100%]
+Results saved to Results/test_auto_invariants_harmonic.csv

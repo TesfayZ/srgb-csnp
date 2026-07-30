@@ -1,0 +1,104 @@
+
+vortex3 (n=3, degree=2, sigma=0.0)
+  seed= 0: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.3s
+  seed= 1: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.4s
+  seed= 2: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.5s
+  seed= 3: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.9s
+  seed= 4: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.2s
+  seed= 5: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.9s
+  seed= 6: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.8s
+  seed= 7: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.4s
+  seed= 8: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.2s
+  seed= 9: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.5s
+  seed=10: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.2s
+  seed=11: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.5s
+  seed=12: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.2s
+  seed=13: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.4s
+  seed=14: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.4s
+  seed=15: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.9s
+  seed=16: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.1s
+  seed=17: ideal_match=True (P=True Q=True I=True) ngen=3 t=7.7s
+  seed=18: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.5s
+  seed=19: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.1s
+  seed=20: ideal_match=True (P=True Q=True I=True) ngen=3 t=7.7s
+  seed=21: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.2s
+  seed=22: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.9s
+  seed=23: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.7s
+  seed=24: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.5s
+  seed=25: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.3s
+  seed=26: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.9s
+  seed=27: ideal_match=True (P=True Q=True I=True) ngen=3 t=9.7s
+  seed=28: ideal_match=True (P=True Q=True I=True) ngen=3 t=8.5s
+  seed=29: ideal_match=True (P=True Q=True I=True) ngen=3 t=10.3s
+
+vortex4 (n=4, degree=2, sigma=0.0)
+  seed= 0: ideal_match=False (P=True Q=True I=False) ngen=2 t=52.3s
+  seed= 1: ideal_match=False (P=True Q=True I=False) ngen=2 t=53.7s
+  seed= 2: ideal_match=False (P=True Q=True I=False) ngen=2 t=52.1s
+  seed= 3: ideal_match=False (P=True Q=True I=False) ngen=2 t=54.0s
+  seed= 4: ideal_match=False (P=True Q=True I=False) ngen=2 t=52.2s
+  seed= 5: ideal_match=False (P=True Q=True I=False) ngen=2 t=53.4s
+  seed= 6: ideal_match=False (P=True Q=True I=False) ngen=2 t=51.8s
+  seed= 7: ideal_match=False (P=True Q=True I=False) ngen=2 t=53.2s
+  seed= 8: ideal_match=False (P=True Q=True I=False) ngen=2 t=52.8s
+  seed= 9: ideal_match=False (P=True Q=True I=False) ngen=2 t=54.0s
+  seed=10: ideal_match=False (P=True Q=True I=False) ngen=2 t=56.3s
+  seed=11: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.9s
+  seed=12: ideal_match=False (P=True Q=True I=False) ngen=2 t=53.6s
+  seed=13: ideal_match=False (P=True Q=True I=False) ngen=2 t=56.1s
+  seed=14: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.2s
+  seed=15: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.6s
+  seed=16: ideal_match=False (P=True Q=True I=False) ngen=2 t=56.2s
+  seed=17: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.6s
+  seed=18: ideal_match=False (P=True Q=True I=False) ngen=2 t=57.1s
+  seed=19: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.5s
+  seed=20: ideal_match=False (P=True Q=True I=False) ngen=2 t=56.5s
+  seed=21: ideal_match=False (P=True Q=True I=False) ngen=2 t=56.6s
+  seed=22: ideal_match=False (P=True Q=True I=False) ngen=2 t=54.9s
+  seed=23: ideal_match=False (P=True Q=True I=False) ngen=2 t=56.0s
+  seed=24: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.5s
+  seed=25: ideal_match=False (P=True Q=True I=False) ngen=2 t=54.9s
+  seed=26: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.8s
+  seed=27: ideal_match=False (P=True Q=True I=False) ngen=2 t=54.2s
+  seed=28: ideal_match=False (P=True Q=True I=False) ngen=2 t=55.6s
+  seed=29: ideal_match=False (P=True Q=True I=False) ngen=2 t=53.5s
+
+vortex5 (n=5, degree=2, sigma=0.0)
+  seed= 0: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.5s
+  seed= 1: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.0s
+  seed= 2: ideal_match=False (P=False Q=False I=False) ngen=0 t=12.8s
+  seed= 3: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.2s
+  seed= 4: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.2s
+  seed= 5: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.5s
+  seed= 6: ideal_match=False (P=False Q=False I=False) ngen=0 t=14.0s
+  seed= 7: ideal_match=False (P=False Q=False I=False) ngen=0 t=14.0s
+  seed= 8: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.9s
+  seed= 9: ideal_match=False (P=False Q=False I=False) ngen=0 t=12.9s
+  seed=10: ideal_match=False (P=False Q=False I=False) ngen=0 t=12.4s
+  seed=11: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.3s
+  seed=12: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.7s
+  seed=13: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=14: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.5s
+  seed=15: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=16: ideal_match=False (P=False Q=False I=False) ngen=0 t=12.5s
+  seed=17: ideal_match=False (P=False Q=False I=False) ngen=0 t=12.4s
+  seed=18: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=19: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=20: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.7s
+  seed=21: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.8s
+  seed=22: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=23: ideal_match=False (P=False Q=False I=False) ngen=0 t=12.9s
+  seed=24: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.2s
+  seed=25: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.3s
+  seed=26: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=27: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.6s
+  seed=28: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.7s
+  seed=29: ideal_match=False (P=False Q=False I=False) ngen=0 t=13.7s
+
+======================================================================
+Point-vortex multi-invariant recovery (full-nullspace deflation)
+======================================================================
+vortex3   (n=3): ideal match 100% 95% CI [89%, 100%]  P/Q/I=100%/100%/100%  mean gens=3.0
+vortex4   (n=4): ideal match 0% 95% CI [0%, 11%]  P/Q/I=100%/100%/0%  mean gens=2.0
+vortex5   (n=5): ideal match 0% 95% CI [0%, 11%]  P/Q/I=0%/0%/0%  mean gens=0.0
+======================================================================

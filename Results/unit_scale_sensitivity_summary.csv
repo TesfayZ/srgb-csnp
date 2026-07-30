@@ -1,0 +1,13 @@
+benchmark,condition,rate,n,ci_low,ci_high
+circle,baseline,1.0,30,0.8864866068260312,0.9999999999999999
+circle,rescaled,0.0,30,0.0,0.11351339317396876
+circle,standardized,0.0,30,0.0,0.11351339317396876
+feynman_momentum_conservation_1d,baseline,1.0,30,0.8864866068260312,0.9999999999999999
+feynman_momentum_conservation_1d,rescaled,0.0,30,0.0,0.11351339317396876
+feynman_momentum_conservation_1d,standardized,0.0,30,0.0,0.11351339317396876
+kepler_angular_momentum,baseline,1.0,30,0.8864866068260312,0.9999999999999999
+kepler_angular_momentum,rescaled,1.0,30,0.8864866068260312,0.9999999999999999
+kepler_angular_momentum,standardized,0.0,30,0.0,0.11351339317396876
+oscillator_fixed_dt,baseline,1.0,30,0.8864866068260312,0.9999999999999999
+oscillator_fixed_dt,rescaled,0.0,30,0.0,0.11351339317396876
+oscillator_fixed_dt,standardized,0.0,30,0.0,0.11351339317396876

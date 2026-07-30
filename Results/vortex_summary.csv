@@ -1,0 +1,4 @@
+system,n_vortices,degree,sigma,n_seeds,ideal_match_rate,ci_low,ci_high,P_rate,Q_rate,I_rate,mean_n_generators,mean_runtime_s,rref_direct_match_rate,rref_ci_low,rref_ci_high,rref_P_direct_rate,rref_Q_direct_rate,rref_I_direct_rate,rref_mean_n_generators,rref_ideal_match_rate_DIAGNOSTIC_ONLY
+vortex3,3,2,0.0,30,1.0,0.8864866068260312,0.9999999999999999,1.0,1.0,1.0,3.0,4.138549780845642,0.0,0,0.11351339317396876,1.0,1.0,0.0,14.0,1.0
+vortex4,4,2,0.0,30,0.0,0.0,0.11351339317396876,1.0,1.0,0.0,2.0,19.855089004834493,0.0,0,0.11351339317396876,1.0,1.0,0.0,18.0,1.0
+vortex5,5,2,0.0,30,0.0,0.0,0.11351339317396876,0.0,0.0,0.0,0.0,4.7941564877827965,0.0,0,0.11351339317396876,1.0,1.0,0.0,22.0,1.0

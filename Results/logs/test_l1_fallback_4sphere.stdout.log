@@ -1,0 +1,136 @@
+L1 Fallback Validation
+Problem: 4-sphere x²+y²+z²+w²=1, degree-3 library (M=35)
+C(35,5)*d² ~ 8×10⁶ > 10⁶  →  L1 fallback automatically invoked
+=================================================================
+  σ=0.000 seed=0: exact=True, sparsity=5, resid=9.89e-15, mode=L1 fallback
+  σ=0.000 seed=1: exact=True, sparsity=5, resid=2.96e-14, mode=L1 fallback
+  σ=0.000 seed=2: exact=True, sparsity=5, resid=1.06e-14, mode=L1 fallback
+  σ=0.000 seed=3: exact=True, sparsity=5, resid=9.85e-15, mode=L1 fallback
+  σ=0.000 seed=4: exact=True, sparsity=5, resid=4.97e-15, mode=L1 fallback
+  σ=0.000 seed=5: exact=True, sparsity=5, resid=1.49e-14, mode=L1 fallback
+  σ=0.000 seed=6: exact=True, sparsity=5, resid=1.51e-14, mode=L1 fallback
+  σ=0.000 seed=7: exact=True, sparsity=5, resid=1.06e-14, mode=L1 fallback
+  σ=0.000 seed=8: exact=True, sparsity=5, resid=2.19e-14, mode=L1 fallback
+  σ=0.000 seed=9: exact=True, sparsity=5, resid=2.07e-14, mode=L1 fallback
+  σ=0.000 seed=10: exact=True, sparsity=5, resid=1.05e-14, mode=L1 fallback
+  σ=0.000 seed=11: exact=True, sparsity=5, resid=7.38e-15, mode=L1 fallback
+  σ=0.000 seed=12: exact=True, sparsity=5, resid=2.35e-14, mode=L1 fallback
+  σ=0.000 seed=13: exact=True, sparsity=5, resid=2.15e-14, mode=L1 fallback
+  σ=0.000 seed=14: exact=True, sparsity=5, resid=2.83e-14, mode=L1 fallback
+  σ=0.000 seed=15: exact=True, sparsity=5, resid=8.04e-15, mode=L1 fallback
+  σ=0.000 seed=16: exact=True, sparsity=5, resid=1.04e-14, mode=L1 fallback
+  σ=0.000 seed=17: exact=True, sparsity=5, resid=8.12e-15, mode=L1 fallback
+  σ=0.000 seed=18: exact=True, sparsity=5, resid=1.49e-14, mode=L1 fallback
+  σ=0.000 seed=19: exact=True, sparsity=5, resid=6.10e-15, mode=L1 fallback
+  σ=0.000 seed=20: exact=True, sparsity=5, resid=6.85e-15, mode=L1 fallback
+  σ=0.000 seed=21: exact=True, sparsity=5, resid=2.99e-14, mode=L1 fallback
+  σ=0.000 seed=22: exact=True, sparsity=5, resid=1.35e-14, mode=L1 fallback
+  σ=0.000 seed=23: exact=True, sparsity=5, resid=9.94e-15, mode=L1 fallback
+  σ=0.000 seed=24: exact=True, sparsity=5, resid=1.73e-14, mode=L1 fallback
+  σ=0.000 seed=25: exact=True, sparsity=5, resid=6.60e-15, mode=L1 fallback
+  σ=0.000 seed=26: exact=True, sparsity=5, resid=2.59e-14, mode=L1 fallback
+  σ=0.000 seed=27: exact=True, sparsity=5, resid=2.39e-14, mode=L1 fallback
+  σ=0.000 seed=28: exact=True, sparsity=5, resid=1.60e-14, mode=L1 fallback
+  σ=0.000 seed=29: exact=True, sparsity=5, resid=1.29e-14, mode=L1 fallback
+  σ=0.010 seed=0: exact=True, sparsity=5, resid=6.20e-01, mode=L1 fallback
+  σ=0.010 seed=1: exact=False, sparsity=20, resid=4.53e-01, mode=L1 fallback
+  σ=0.010 seed=2: exact=False, sparsity=15, resid=2.27e-01, mode=L1 fallback
+  σ=0.010 seed=3: exact=False, sparsity=15, resid=2.15e-01, mode=L1 fallback
+  σ=0.010 seed=4: exact=False, sparsity=10, resid=2.24e-01, mode=L1 fallback
+  σ=0.010 seed=5: exact=False, sparsity=15, resid=3.28e-01, mode=L1 fallback
+  σ=0.010 seed=6: exact=False, sparsity=10, resid=3.12e-01, mode=L1 fallback
+  σ=0.010 seed=7: exact=False, sparsity=5, resid=3.19e-01, mode=L1 fallback
+  σ=0.010 seed=8: exact=False, sparsity=10, resid=4.44e-01, mode=L1 fallback
+  σ=0.010 seed=9: exact=False, sparsity=10, resid=4.39e-01, mode=L1 fallback
+  σ=0.010 seed=10: exact=False, sparsity=10, resid=2.32e-01, mode=L1 fallback
+  σ=0.010 seed=11: exact=False, sparsity=10, resid=3.18e-01, mode=L1 fallback
+  σ=0.010 seed=12: exact=True, sparsity=5, resid=6.20e-01, mode=L1 fallback
+  σ=0.010 seed=13: exact=False, sparsity=15, resid=2.21e-01, mode=L1 fallback
+  σ=0.010 seed=14: exact=False, sparsity=10, resid=4.40e-01, mode=L1 fallback
+  σ=0.010 seed=15: exact=False, sparsity=9, resid=4.53e-01, mode=L1 fallback
+  σ=0.010 seed=16: exact=False, sparsity=15, resid=2.33e-01, mode=L1 fallback
+  σ=0.010 seed=17: exact=False, sparsity=15, resid=2.22e-01, mode=L1 fallback
+  σ=0.010 seed=18: exact=False, sparsity=10, resid=2.18e-01, mode=L1 fallback
+  σ=0.010 seed=19: exact=False, sparsity=10, resid=3.09e-01, mode=L1 fallback
+  σ=0.010 seed=20: exact=False, sparsity=10, resid=3.13e-01, mode=L1 fallback
+  σ=0.010 seed=21: exact=False, sparsity=10, resid=2.16e-01, mode=L1 fallback
+  σ=0.010 seed=22: exact=False, sparsity=10, resid=4.49e-01, mode=L1 fallback
+  σ=0.010 seed=23: exact=True, sparsity=6, resid=6.32e-01, mode=L1 fallback
+  σ=0.010 seed=24: exact=False, sparsity=14, resid=2.23e-01, mode=L1 fallback
+  σ=0.010 seed=25: exact=False, sparsity=15, resid=2.19e-01, mode=L1 fallback
+  σ=0.010 seed=26: exact=True, sparsity=10, resid=6.19e-01, mode=L1 fallback
+  σ=0.010 seed=27: exact=False, sparsity=10, resid=2.12e-01, mode=L1 fallback
+  σ=0.010 seed=28: exact=False, sparsity=10, resid=4.54e-01, mode=L1 fallback
+  σ=0.010 seed=29: exact=False, sparsity=15, resid=2.22e-01, mode=L1 fallback
+  σ=0.020 seed=0: exact=False, sparsity=6, resid=8.91e-01, mode=L1 fallback
+  σ=0.020 seed=1: exact=False, sparsity=20, resid=9.05e-01, mode=L1 fallback
+  σ=0.020 seed=2: exact=False, sparsity=15, resid=4.55e-01, mode=L1 fallback
+  σ=0.020 seed=3: exact=False, sparsity=15, resid=4.29e-01, mode=L1 fallback
+  σ=0.020 seed=4: exact=False, sparsity=10, resid=4.45e-01, mode=L1 fallback
+  σ=0.020 seed=5: exact=True, sparsity=5, resid=1.27e+00, mode=L1 fallback
+  σ=0.020 seed=6: exact=True, sparsity=8, resid=1.28e+00, mode=L1 fallback
+  σ=0.020 seed=7: exact=False, sparsity=5, resid=6.36e-01, mode=L1 fallback
+  σ=0.020 seed=8: exact=False, sparsity=9, resid=8.87e-01, mode=L1 fallback
+  σ=0.020 seed=9: exact=False, sparsity=10, resid=8.77e-01, mode=L1 fallback
+  σ=0.020 seed=10: exact=False, sparsity=10, resid=4.62e-01, mode=L1 fallback
+  σ=0.020 seed=11: exact=False, sparsity=11, resid=1.27e+00, mode=L1 fallback
+  σ=0.020 seed=12: exact=False, sparsity=6, resid=8.70e-01, mode=L1 fallback
+  σ=0.020 seed=13: exact=False, sparsity=15, resid=4.41e-01, mode=L1 fallback
+  σ=0.020 seed=14: exact=False, sparsity=11, resid=1.26e+00, mode=L1 fallback
+  σ=0.020 seed=15: exact=False, sparsity=9, resid=9.04e-01, mode=L1 fallback
+  σ=0.020 seed=16: exact=False, sparsity=15, resid=4.67e-01, mode=L1 fallback
+  σ=0.020 seed=17: exact=False, sparsity=15, resid=4.43e-01, mode=L1 fallback
+  σ=0.020 seed=18: exact=False, sparsity=10, resid=4.35e-01, mode=L1 fallback
+  σ=0.020 seed=19: exact=False, sparsity=15, resid=4.49e-01, mode=L1 fallback
+  σ=0.020 seed=20: exact=False, sparsity=10, resid=6.25e-01, mode=L1 fallback
+  σ=0.020 seed=21: exact=False, sparsity=10, resid=4.32e-01, mode=L1 fallback
+  σ=0.020 seed=22: exact=True, sparsity=6, resid=1.26e+00, mode=L1 fallback
+  σ=0.020 seed=23: exact=False, sparsity=10, resid=4.53e-01, mode=L1 fallback
+  σ=0.020 seed=24: exact=False, sparsity=14, resid=4.47e-01, mode=L1 fallback
+  σ=0.020 seed=25: exact=False, sparsity=15, resid=4.38e-01, mode=L1 fallback
+  σ=0.020 seed=26: exact=False, sparsity=10, resid=4.39e-01, mode=L1 fallback
+  σ=0.020 seed=27: exact=False, sparsity=10, resid=4.23e-01, mode=L1 fallback
+  σ=0.020 seed=28: exact=False, sparsity=11, resid=9.07e-01, mode=L1 fallback
+  σ=0.020 seed=29: exact=False, sparsity=15, resid=4.43e-01, mode=L1 fallback
+  σ=0.050 seed=0: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=1: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=2: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=3: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=4: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=5: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=6: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=7: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=8: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=9: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=10: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=11: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=12: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=13: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=14: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=15: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=16: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=17: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=18: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=19: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=20: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=21: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=22: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=23: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=24: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=25: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=26: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=27: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=28: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+  σ=0.050 seed=29: exact=False, sparsity=-1, resid=-1.00e+00, mode=Combinatorial (C=324,632)
+   sigma  exact_rate  ci_low  ci_high
+0   0.00       1.000   0.886    1.000
+1   0.01       0.133   0.053    0.297
+2   0.02       0.100   0.035    0.256
+3   0.05       0.000   0.000    0.114
+
+Summary (exact recovery rate):
+ sigma  exact_rate  mean_sparsity  mean_residual   ci_low  ci_high
+  0.00    1.000000       5.000000   1.499045e-14 0.886487 1.000000
+  0.01    0.133333      11.133333   3.467781e-01 0.053097 0.296813
+  0.02    0.100000      11.033333   6.978726e-01 0.034600 0.256211
+  0.05    0.000000      -1.000000  -1.000000e+00 0.000000 0.113513

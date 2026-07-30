@@ -1,0 +1,35 @@
+Experiment Run Summary
+Date: 2026-07-23 15:45:48
+================================================================================
+
+
+📁 BENCHMARKS
+  Total:  16
+  Passed: 16
+  Failed: 0
+  Skipped: 0
+  Time:   65691.19s
+
+📁 ABLATIONS
+  Total:  9
+  Passed: 9
+  Failed: 0
+  Skipped: 0
+  Time:   1227.74s
+
+📁 VALIDATION_AND_VERIFICATION
+  Total:  13
+  Passed: 13
+  Failed: 0
+  Skipped: 0
+  Time:   2831.27s
+
+📁 TESTS
+  Total:  9
+  Passed: 9
+  Failed: 0
+  Skipped: 0
+  Time:   16.84s
+
+OVERALL: 47/47 passed
+Total time: 69767.05s

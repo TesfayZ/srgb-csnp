@@ -1,0 +1,5 @@
+BB best cost: (np.float64(3.0), 3, np.float64(1.1875572804850022e-16))
+Brute force best cost: (np.float64(3.0), 3, np.float64(1.1875572804850022e-16))
+BB support: {0, 3, 5}
+Brute force support: {0, 3, 5}
+BB matches brute force. Global optimality verified.

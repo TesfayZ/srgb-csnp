@@ -1,0 +1,34 @@
+Seed 0: found_invariant=False
+Seed 1: found_invariant=False
+Seed 2: found_invariant=False
+Seed 3: found_invariant=False
+Seed 4: found_invariant=False
+Seed 5: found_invariant=False
+Seed 6: found_invariant=False
+Seed 7: found_invariant=False
+Seed 8: found_invariant=False
+Seed 9: found_invariant=False
+Seed 10: found_invariant=False
+Seed 11: found_invariant=False
+Seed 12: found_invariant=False
+Seed 13: found_invariant=False
+Seed 14: found_invariant=False
+Seed 15: found_invariant=False
+Seed 16: found_invariant=False
+Seed 17: found_invariant=False
+Seed 18: found_invariant=False
+Seed 19: found_invariant=False
+Seed 20: found_invariant=False
+Seed 21: found_invariant=False
+Seed 22: found_invariant=False
+Seed 23: found_invariant=False
+Seed 24: found_invariant=False
+Seed 25: found_invariant=False
+Seed 26: found_invariant=False
+Seed 27: found_invariant=False
+Seed 28: found_invariant=False
+Seed 29: found_invariant=False
+
+Gravity pendulum: spurious-invariant rate = 0% 95% CI [0%, 11%]
+(0% is the correct/expected outcome: no bounded-degree polynomial
+ invariant exists, so the pipeline should abstain every trial.)

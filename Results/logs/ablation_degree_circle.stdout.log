@@ -1,0 +1,23 @@
+======================================================================
+ABLATION: Degree discovery on the circle
+Seeds = 30, N = 5000, σ = 0.01, Dmax = 4
+======================================================================
+Adaptive: seed 10/30 done
+Adaptive: seed 20/30 done
+Adaptive: seed 30/30 done
+
+=== Adaptive Degree Discovery ===
+Exact recovery rate: 100% 95% CI [89%, 100%]
+Correct degree (2) selection rate: 100% 95% CI [89%, 100%]
+Fixed D=1: done
+Fixed D=2: done
+Fixed D=3: done
+Fixed D=4: done
+
+=== Fixed‑Degree Recovery ===
+D=1: 0% 95% CI [0%, 11%]
+D=2: 100% 95% CI [89%, 100%]
+D=3: 100% 95% CI [89%, 100%]
+D=4: 100% 95% CI [89%, 100%]
+
+Results saved to Results/

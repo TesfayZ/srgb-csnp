@@ -1,0 +1,481 @@
+integrator,dt,sigma,seed,exact_Qdt,exact_H,n_generators,Qdt,returned,time
+symplectic_euler,0.1,0.0,0,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.025
+symplectic_euler,0.1,0.0,1,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,2,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,3,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,4,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.013
+symplectic_euler,0.1,0.0,5,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,6,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,7,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,8,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,9,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,10,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,11,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,12,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,13,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,14,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.013
+symplectic_euler,0.1,0.0,15,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,16,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,17,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,18,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,19,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,20,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,21,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,22,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,23,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.014
+symplectic_euler,0.1,0.0,24,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,25,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.0,26,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.015
+symplectic_euler,0.1,0.0,27,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,28,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.012
+symplectic_euler,0.1,0.0,29,True,False,1,v**2 - v*x/10 + x**2,10*v**2 - v*x + 10*x**2,0.011
+symplectic_euler,0.1,0.01,0,False,False,0,v**2 - v*x/10 + x**2,,0.023
+symplectic_euler,0.1,0.01,1,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,2,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,3,False,False,0,v**2 - v*x/10 + x**2,,0.022
+symplectic_euler,0.1,0.01,4,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,5,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,6,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,7,False,False,0,v**2 - v*x/10 + x**2,,0.021
+symplectic_euler,0.1,0.01,8,False,False,0,v**2 - v*x/10 + x**2,,0.022
+symplectic_euler,0.1,0.01,9,False,False,0,v**2 - v*x/10 + x**2,,0.022
+symplectic_euler,0.1,0.01,10,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,11,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,12,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,13,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,14,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,15,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,16,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,17,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,18,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,19,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,20,False,False,0,v**2 - v*x/10 + x**2,,0.021
+symplectic_euler,0.1,0.01,21,False,False,0,v**2 - v*x/10 + x**2,,0.024
+symplectic_euler,0.1,0.01,22,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.01,23,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,24,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,25,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,26,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.01,27,False,False,0,v**2 - v*x/10 + x**2,,0.021
+symplectic_euler,0.1,0.01,28,False,False,0,v**2 - v*x/10 + x**2,,0.021
+symplectic_euler,0.1,0.01,29,False,False,0,v**2 - v*x/10 + x**2,,0.021
+symplectic_euler,0.1,0.02,0,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.02,1,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,2,False,False,0,v**2 - v*x/10 + x**2,,0.022
+symplectic_euler,0.1,0.02,3,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,4,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,5,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,6,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,7,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,8,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,9,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,10,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,11,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,12,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,13,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,14,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,15,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,16,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.02,17,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,18,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,19,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,20,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,21,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,22,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,23,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,24,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,25,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,26,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,27,False,False,0,v**2 - v*x/10 + x**2,,0.019
+symplectic_euler,0.1,0.02,28,False,False,0,v**2 - v*x/10 + x**2,,0.02
+symplectic_euler,0.1,0.02,29,False,False,0,v**2 - v*x/10 + x**2,,0.021
+symplectic_euler,0.1,0.05,0,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,1,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,2,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,3,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,4,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,5,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,6,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,7,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,8,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,9,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,10,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,11,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,12,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,13,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,14,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,15,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,16,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,17,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,18,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,19,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,20,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,21,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,22,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,23,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,24,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,25,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,26,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,27,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,28,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.1,0.05,29,False,False,0,v**2 - v*x/10 + x**2,,0.007
+symplectic_euler,0.5,0.0,0,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.014
+symplectic_euler,0.5,0.0,1,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,2,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,3,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,4,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,5,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,6,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,7,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,8,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,9,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.014
+symplectic_euler,0.5,0.0,10,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,11,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,12,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.014
+symplectic_euler,0.5,0.0,13,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,14,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,15,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,16,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,17,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.0,18,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,19,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,20,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,21,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,22,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,23,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.0,24,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,25,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.0,26,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.0,27,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,28,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.0,29,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.017
+symplectic_euler,0.5,0.01,0,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.01,1,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,2,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,3,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,4,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,5,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,6,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.01,7,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.01,8,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,9,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,10,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,11,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.01,12,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,13,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.01,14,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,15,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,16,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,17,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,18,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,19,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,20,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,21,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,22,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,23,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,24,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,25,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,26,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,27,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,28,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.01,29,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,0,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,1,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,2,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,3,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,4,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,5,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,6,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,7,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.02,8,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,9,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,10,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.02,11,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,12,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,13,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,14,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,15,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,16,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,17,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,18,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,19,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,20,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,21,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,22,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,23,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,24,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.014
+symplectic_euler,0.5,0.02,25,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,26,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,27,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,28,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.02,29,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.011
+symplectic_euler,0.5,0.05,0,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,1,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,2,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,3,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,4,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,5,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,6,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,7,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,8,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,9,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,10,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,11,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,12,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,13,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,14,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,15,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,16,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,17,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,18,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,19,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,20,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,21,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,22,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,23,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,24,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,25,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,26,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,27,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+symplectic_euler,0.5,0.05,28,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.013
+symplectic_euler,0.5,0.05,29,True,False,1,v**2 - v*x/2 + x**2,2*v**2 - v*x + 2*x**2,0.012
+stormer_verlet,0.5,0.0,0,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.014
+stormer_verlet,0.5,0.0,1,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,2,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,3,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,4,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,5,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,6,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.013
+stormer_verlet,0.5,0.0,7,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,8,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.012
+stormer_verlet,0.5,0.0,9,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,10,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,11,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,12,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,13,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,14,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,15,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,16,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,17,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,18,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,19,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,20,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,21,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,22,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,23,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,24,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,25,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,26,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.0,27,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,28,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.009
+stormer_verlet,0.5,0.0,29,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,0,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,1,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,2,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,3,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,4,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,5,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,6,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,7,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,8,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,9,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,10,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,11,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,12,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,13,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,14,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,15,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,16,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,17,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,18,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,19,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.01,20,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.01,21,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,22,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,23,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,24,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,25,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,26,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,27,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,28,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.01,29,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,0,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,1,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,2,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,3,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,4,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,5,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,6,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,7,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,8,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,9,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,10,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,11,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,12,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,13,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,14,False,False,1,16*v**2/15 + x**2,15*v**2/14 + x**2,0.012
+stormer_verlet,0.5,0.02,15,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,16,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,17,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,18,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,19,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,20,False,False,1,16*v**2/15 + x**2,15*v**2/14 + x**2,0.01
+stormer_verlet,0.5,0.02,21,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,22,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,23,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,24,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,25,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.012
+stormer_verlet,0.5,0.02,26,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.011
+stormer_verlet,0.5,0.02,27,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,28,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.02,29,True,False,1,16*v**2/15 + x**2,16*v**2/15 + x**2,0.01
+stormer_verlet,0.5,0.05,0,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.009
+stormer_verlet,0.5,0.05,1,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,2,False,False,1,16*v**2/15 + x**2,15*v**2/14 + x**2,0.01
+stormer_verlet,0.5,0.05,3,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,4,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,5,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,6,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,7,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,8,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,9,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.009
+stormer_verlet,0.5,0.05,10,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,11,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,12,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,13,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,14,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,15,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,16,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,17,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.01
+stormer_verlet,0.5,0.05,18,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.009
+stormer_verlet,0.5,0.05,19,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,20,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,21,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,22,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.009
+stormer_verlet,0.5,0.05,23,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,24,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,25,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,26,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,27,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,28,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,0.5,0.05,29,False,True,1,16*v**2/15 + x**2,v**2 + x**2,0.008
+stormer_verlet,1.0,0.0,0,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.012
+stormer_verlet,1.0,0.0,1,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,2,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,3,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,4,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,5,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,6,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,7,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,8,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,9,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,10,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,11,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,12,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,13,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,14,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,15,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,16,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,17,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,18,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,19,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,20,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,21,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,22,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,23,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,24,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.009
+stormer_verlet,1.0,0.0,25,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,26,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,27,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.011
+stormer_verlet,1.0,0.0,28,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.0,29,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,0,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,1,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,2,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,3,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,4,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,5,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,6,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,7,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,8,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,9,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,10,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,11,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.011
+stormer_verlet,1.0,0.01,12,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,13,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,14,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,15,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,16,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,17,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.011
+stormer_verlet,1.0,0.01,18,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,19,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,20,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,21,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,22,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,23,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,24,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,25,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,26,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,27,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,28,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.01,29,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,0,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.011
+stormer_verlet,1.0,0.02,1,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,2,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,3,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,4,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,5,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,6,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,7,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,8,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,9,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,10,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,11,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,12,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,13,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,14,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,15,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,16,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,17,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,18,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,19,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,20,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,21,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,22,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,23,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,24,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,25,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,26,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,27,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.02,28,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.013
+stormer_verlet,1.0,0.02,29,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,0,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.011
+stormer_verlet,1.0,0.05,1,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,2,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,3,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,4,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,5,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,6,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,7,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,8,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,9,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.011
+stormer_verlet,1.0,0.05,10,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,11,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,12,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,13,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,14,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,15,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.015
+stormer_verlet,1.0,0.05,16,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,17,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,18,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,19,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,20,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,21,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,22,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,23,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,24,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,25,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,26,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,27,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,28,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01
+stormer_verlet,1.0,0.05,29,True,False,1,4*v**2/3 + x**2,4*v**2/3 + x**2,0.01

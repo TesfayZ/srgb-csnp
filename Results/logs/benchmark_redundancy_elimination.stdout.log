@@ -1,0 +1,21 @@
+Circle: seed 10/30 done
+Circle: seed 20/30 done
+Circle: seed 30/30 done
+Sphere: seed 10/30 done
+Sphere: seed 20/30 done
+Sphere: seed 30/30 done
+Cubic: seed 10/30 done
+Cubic: seed 20/30 done
+Cubic: seed 30/30 done
+
+================================================================================
+Table 3: Redundancy Elimination (30 seeds, σ=0.0)
+Note: SINDy-AD is omitted (N/A) because these are static varieties.
+================================================================================
+Method             Red. Circle     Red. Sphere     Red. Cubic      Rec. error   FDR       
+--------------------------------------------------------------------------------
+SINDy-null         1.0 ± 0.0       1.0 ± 0.0       1.0 ± 0.0       0.00         0.00      
+SINDy-ST           4.0 ± 0.0       7.0 ± 0.0       8.0 ± 0.0       0.16         0.83      
+Dense SVD+GB       1.0 ± 0.0       1.0 ± 0.0       1.0 ± 0.0       0.00         0.00      
+SR-GB+CSNP (ours)  1.0 ± 0.0       1.0 ± 0.0       1.0 ± 0.0       0.00         0.00      
+================================================================================
