@@ -1,4 +1,8 @@
-# SR-GB+CSNP: Sparse Regression + Gröbner Basis + Combinatorial Sparse Nullspace Pursuit
+# SR-GB+CSNP: Canonical Minimal Polynomial Invariants from Noisy Data via Adaptive Sparse Nullspace Recovery and Gröbner Basis
+
+**Document(paper):** [PDF](https://github.com/TesfayZ/srgb-csnp/blob/master/Doc/Adaptive-CSNP.pdf)
+**Package:** Initial release available at [`polyinv`](https://github.com/TesfayZ/polyinv) — install via `pip install polyinv`.
+
 
 **SR-GB-CSNP** is a Python framework for discovering **minimal, canonical polynomial invariants** from noisy observational data.
 
