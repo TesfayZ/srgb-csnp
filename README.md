@@ -1,6 +1,6 @@
 # SR-GB+CSNP: Canonical Minimal Polynomial Invariants from Noisy Data via Adaptive Sparse Nullspace Recovery and Gröbner Basis
 
-**Document(paper):** [PDF](https://github.com/TesfayZ/srgb-csnp/blob/master/Doc/Adaptive-CSNP.pdf)
+**Document(paper preprint):** [PDF](https://zenodo.org/records/21836794)
 **Package:** Initial release available at [`polyinv`](https://github.com/TesfayZ/polyinv) — install via `pip install polyinv`.
 
 
