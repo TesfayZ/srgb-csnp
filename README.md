@@ -311,7 +311,37 @@ The repository contains experiments covering:
 * OMP comparisons
 
 ---
+## Citation
 
+If you use the paper or this software in your research, please cite both separately.
+
+### Paper citation
+
+```bibtex
+@misc{Gebrekidan2026srgb_csnp,
+  author       = {Tesfay Zemuy Gebrekidan},
+  title        = {Canonical Minimal Polynomial Invariants from Noisy Data via Adaptive Sparse Nullspace Recovery and Gröbner Basis},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21836794},
+  url          = {https://doi.org/10.5281/zenodo.21836794},
+}
+```
+
+### Software citation
+
+```bibtex
+@software{Gebrekidan2026polyinv,
+  author       = {Tesfay Zemuy Gebrekidan},
+  title        = {polyinv: Canonical Minimal Polynomial Invariant Computation Package - based on the paper - Canonical Minimal Polynomial Invariants from Noisy Data via Adaptive Sparse Nullspace Recovery and Gröbner Basis},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21838053},
+  url          = {https://doi.org/10.5281/zenodo.21838053},
+}
+```
+
+---
 # License
 
 The code in this repository is released under the **MIT license** (see
