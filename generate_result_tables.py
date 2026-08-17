@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
 generate_result_tables.py – Generate LaTeX tables from CSV files.
-Now includes:
+includes:
   - Table: Adaptive degree discovery (from ablation_adaptive_degree_circle.csv)
   - Table: Fixed‑degree recovery rates (from ablation_fixed_degree_summary.csv)
+  - Wilson confidence intervals added to all tables that lacked them
 """
 
 import os
@@ -11,6 +12,21 @@ import sys
 import pandas as pd
 import numpy as np
 from utils_stats import wilson_interval, mcnemar_exact
+
+# ----------------------------------------------------------------------
+# Helper function for formatting rates with CI
+# ----------------------------------------------------------------------
+
+def _fmt_rate_with_ci(rate, n, decimals=0):
+    """Format a rate with its Wilson CI, given number of trials n."""
+    if n <= 0:
+        return "---"
+    k = int(round(rate * n))
+    lo, hi = wilson_interval(k, n)
+    if decimals == 0:
+        return f"{rate*100:.0f}\\% [{lo*100:.0f}\\%, {hi*100:.0f}\\%]"
+    else:
+        return f"{rate*100:.{decimals}f}\\% [{lo*100:.{decimals}f}\\%, {hi*100:.{decimals}f}\\%]"
 
 # ----------------------------------------------------------------------
 # Helper functions
@@ -945,6 +961,14 @@ def table_avi(out):
         # Sub-unity cardinalities carry a second decimal in the paper.
         return f"{v:.2f}" if v < 1.0 else f"{v:.1f}"
 
+    # Determine n_seeds
+    n_seeds = 30
+    if "n_seeds" in df.columns:
+        n_seeds = int(df["n_seeds"].iloc[0])
+
+    def cell_exact(rate):
+        return _fmt_rate_with_ci(rate, n_seeds)
+
     out.write("\\begin{table}[H]\n\\centering\n")
     out.write("\\caption{AVI border-basis cardinality vs \\SRGBCSNP, mean over 30 seeds "
               "($N=5000$). A single true generator underlies every system; AVI's "
@@ -960,11 +984,12 @@ def table_avi(out):
         sub = df[df["system"] == key]
         cards, exacts = [], []
         for s in sigmas:
-            r = sub[sub["sigma"] == s]
+            r = sub[np.isclose(sub["sigma"], s)]
             if r.empty:
                 cards.append("---"); exacts.append("---"); continue
             cards.append(card(float(r["mean_avi_cardinality"].iloc[0])))
-            exacts.append(f"{round(float(r['srgb_exact_rate'].iloc[0])*100)}\\%")
+            rate = float(r["srgb_exact_rate"].iloc[0])
+            exacts.append(cell_exact(rate))
         row_data.append((label, tuple(cards + exacts)))
 
     # Merge consecutive rows with identical values (labels joined by ", "),
@@ -1002,10 +1027,7 @@ def table_dt_discriminator(out):
     ]
 
     def cell(rate, n, bold=False):
-        k = int(round(rate * n))
-        lo, hi = wilson_interval(k, n)
-        s = f"{round(rate*100)}\\% [{lo:.2f}, {hi:.2f}]"
-        return f"\\textbf{{{s}}}" if bold else s
+        return _fmt_rate_with_ci(rate, n) if not bold else f"\\textbf{{{_fmt_rate_with_ci(rate, n)}}}"
 
     out.write("\\begin{table}[H]\n\\centering\n")
     out.write("\\caption{Fixed-$dt$ vs.\\ variable-$dt$ discriminator: exact recovery "
@@ -1065,10 +1087,7 @@ def table_sparsity_vs_rationality(out):
             return
 
     def cell(rate, n, bold=False):
-        k = int(round(rate * n))
-        lo, hi = wilson_interval(k, n)
-        s = f"{round(rate*100)}\\% [{lo:.2f}, {hi:.2f}]"
-        return f"\\textbf{{{s}}}" if bold else s
+        return _fmt_rate_with_ci(rate, n) if not bold else f"\\textbf{{{_fmt_rate_with_ci(rate, n)}}}"
 
     write_table_header(out,
         "Sparsity-first vs.\\ rationality-first selection on the fixed-$dt$ "
@@ -1107,9 +1126,12 @@ def table_unit_scale(out):
     ]
     conditions = ["baseline", "rescaled", "standardized"]
 
-    def cell(rate, emphasize):
-        s = f"{round(rate*100)}\\%"
-        # Emphasize a non-trivial survival (rescaled/standardized at 100%).
+    n_seeds = 30
+    if "n_seeds" in df.columns:
+        n_seeds = int(df["n_seeds"].iloc[0])
+
+    def cell(rate, emphasize=False):
+        s = _fmt_rate_with_ci(rate, n_seeds)
         return f"\\textbf{{{s}}}" if (emphasize and rate >= 1.0) else s
 
     out.write("\\begin{table}[H]\n\\centering\n")
@@ -1145,8 +1167,12 @@ def table_vortex(out):
             ("vortex4", "4 vortices"),
             ("vortex5", "5 vortices")]
 
-    def pct(v):
-        return f"{round(float(v)*100)}\\%"
+    n_seeds = 30
+    if "n_seeds" in df.columns:
+        n_seeds = int(df["n_seeds"].iloc[0])
+
+    def cell(rate):
+        return _fmt_rate_with_ci(rate, n_seeds)
 
     out.write("\\begin{table}[H]\n\\centering\n")
     out.write("\\caption{Point-vortex multi-invariant recovery via full-nullspace "
@@ -1180,17 +1206,11 @@ def table_vortex(out):
             continue
         rr = r.iloc[0]
         ci = f"[{float(rr['ci_low'])*100:.0f}\\%, {float(rr['ci_high'])*100:.0f}\\%]"
-        out.write(f"{label} & {pct(rr['P_rate'])} & {pct(rr['Q_rate'])} & "
-                  f"{pct(rr['I_rate'])} & {pct(rr['ideal_match_rate'])} {ci} & "
-                  f"{pct(rr['rref_P_direct_rate'])} & {pct(rr['rref_Q_direct_rate'])} & "
-                  f"\\textbf{{{pct(rr['rref_I_direct_rate'])}}}\\\\\n")
+        out.write(f"{label} & {cell(rr['P_rate'])} & {cell(rr['Q_rate'])} & "
+                  f"{cell(rr['I_rate'])} & {cell(rr['ideal_match_rate'])} & "
+                  f"{cell(rr['rref_P_direct_rate'])} & {cell(rr['rref_Q_direct_rate'])} & "
+                  f"\\textbf{{{cell(rr['rref_I_direct_rate'])}}}\\\\\n")
     write_table_footer(out)
-
-# ----------------------------------------------------------------------
-# NOTE: the AR(1)-correlated-noise circle ablation (formerly its own
-# standalone table_ar1_noise / tab:ar1-noise) is now panel (b) of
-# table_noise() above, matching the paper's merged tab:noise table.
-# ----------------------------------------------------------------------
 
 # ----------------------------------------------------------------------
 # Table: difference-dictionary generality probe
@@ -1290,10 +1310,6 @@ def table_noise_ceiling(out):
     write_table_footer(out)
 
 # ----------------------------------------------------------------------
-# Main
-# ----------------------------------------------------------------------
-
-# ----------------------------------------------------------------------
 # Tables: Qmax (rational-denominator cap) and eps (snap tolerance) sensitivity
 # ----------------------------------------------------------------------
 
@@ -1337,6 +1353,14 @@ def table_qmax_recovery(out):
     # order systems by min_denom
     order = (df[["system", "min_denom"]].drop_duplicates()
              .sort_values("min_denom")["system"].tolist())
+    
+    n_seeds = 30
+    if "n_seeds" in df.columns:
+        n_seeds = int(df["n_seeds"].iloc[0])
+
+    def cell(rate):
+        return _fmt_rate_with_ci(rate, n_seeds)
+
     write_table_header(out,
         "Exact recovery vs the rational-denominator cap $Q_{\\max}$ (\\texttt{max\\_denom}) "
         "on conics with coprime integer coefficients, sampled exactly on the "
@@ -1361,7 +1385,7 @@ def table_qmax_recovery(out):
         cells = []
         for q in qmaxes:
             row = sub[sub["qmax"] == q]
-            cells.append(f"{row.iloc[0]['rate']*100:.0f}\\%" if len(row) == 1 else "---")
+            cells.append(cell(row.iloc[0]['rate']) if len(row) == 1 else "---")
         out.write(f"{label} & {md} & " + " & ".join(cells) + " \\\\\n")
     # median runtime per Qmax (across systems/seeds) to show cost vs Qmax
     out.write("\\midrule\n")
@@ -1386,6 +1410,14 @@ def table_qmax_falsepos(out):
             print(f"ERROR: column '{col}' missing in ablation_qmax_falsepos_summary.csv")
             return
     qmaxes = sorted(df["qmax"].unique())
+    
+    n_seeds = 30
+    if "n_seeds" in df.columns:
+        n_seeds = int(df["n_seeds"].iloc[0])
+
+    def cell(fp_rate):
+        return _fmt_rate_with_ci(fp_rate, n_seeds)
+
     write_table_header(out,
         "False-positive rate (a nonzero generator returned when the method "
         "should abstain) vs the denominator cap $Q_{\\max}$, 30 seeds. Neither "
@@ -1404,7 +1436,7 @@ def table_qmax_falsepos(out):
         cells = []
         for q in qmaxes:
             row = sub[sub["qmax"] == q]
-            cells.append(f"{row.iloc[0]['fp_rate']*100:.0f}\\%" if len(row) == 1 else "---")
+            cells.append(cell(row.iloc[0]['fp_rate']) if len(row) == 1 else "---")
         out.write(f"{_QMAX_NEG_LABEL[sysname]} & " + " & ".join(cells) + " \\\\\n")
     write_table_footer(out)
 
@@ -1421,6 +1453,14 @@ def table_eps_sensitivity(out):
         if col not in df.columns:
             print(f"ERROR: column '{col}' missing in ablation_eps_sensitivity_summary.csv")
             return
+    
+    n_seeds = 30
+    if "n_seeds" in df.columns:
+        n_seeds = int(df["n_seeds"].iloc[0])
+
+    def cell(rate):
+        return _fmt_rate_with_ci(rate, n_seeds)
+
     write_table_header(out,
         "Sensitivity to the snap / rational-window tolerance $\\varepsilon$, "
         "30 seeds. Recovery is measured on the unit circle at $\\sigma=0.01$; "
@@ -1432,10 +1472,16 @@ def table_eps_sensitivity(out):
     out.write("$\\varepsilon$ & \\textbf{Circle recovery} & \\textbf{False positive (irrational)} \\\\\n")
     out.write("\\midrule\n")
     for _, r in df.sort_values("eps", ascending=False).iterrows():
-        out.write(f"$10^{{{int(round(np.log10(r['eps'])))}}}$ & "
-                  f"{r['recovery_rate']*100:.0f}\\% & {r['fp_rate']*100:.0f}\\% \\\\\n")
+        eps_val = r["eps"]
+        rec_str = cell(r["recovery_rate"])
+        fp_str = cell(r["fp_rate"])
+        out.write(f"$10^{{{int(round(np.log10(eps_val)))}}}$ & {rec_str} & {fp_str} \\\\\n")
     write_table_footer(out)
 
+
+# ----------------------------------------------------------------------
+# Main
+# ----------------------------------------------------------------------
 
 def _safe_call(table_fn, out):
     """Run one table_* function, catching any exception (missing/renamed
@@ -1545,9 +1591,6 @@ def main():
         f.write("% Table: noise ceiling for higher-degree invariants\n")
         _safe_call(table_noise_ceiling, f)
         f.write("\n")
-
-        # AR(1) correlated-noise circle ablation is now panel (b) of
-        # table_noise() above (merged tab:noise table).
 
         f.write("% Table: difference-dictionary generality probe\n")
         _safe_call(table_diff_dictionary_generality, f)
