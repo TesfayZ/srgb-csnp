@@ -12,12 +12,12 @@ The framework combines:
 
 1. **Monomial lifting** into a polynomial feature space.
 2. **Nullspace estimation** using Singular Value Decomposition (SVD).
-3. **Combinatorial Sparse Nullspace Pursuit (CSNP)**, which searches over monomial supports while enforcing the exact rank-deficiency condition (Proposition 4.1) to identify geometrically valid candidates.
-4. **Lexicographic Minimum Description Length (MDL) selection**, choosing among valid candidates by:
+3. **Combinatorial Sparse Nullspace Pursuit (CSNP)**, which searches over monomial supports using a rank-based support-identifiability condition (the Support Identifiability Lemma) together with a noise-guarded feasibility classification.
+4. **Hierarchical Minimum Description Length (MDL) selection**, choosing among valid candidates by:
 
    * smallest **rationality score** (coefficient simplicity),
    * then smallest **sparsity** (number of active monomials),
-   * then smallest **geometric uniqueness** (`s_min`) as a tie-breaker.
+   * then largest spectral stability gap as a tie-breaker.
 5. **Noise-tolerant rational snap-rounding** to recover exact rational coefficients.
 6. **Reduced Gröbner basis computation** over **ℚ** to obtain a canonical generating set of the inferred polynomial ideal.
 
