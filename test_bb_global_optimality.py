@@ -39,7 +39,7 @@ def generate_synthetic_problem():
 
 def brute_force(V_null, d, k_max, max_denom, eps, sigma_estimate, Phi, N):
     M = V_null.shape[0]
-    best_cost = (float('inf'), float('inf'), float('inf'))
+    best_cost = (float('inf'), float('inf'))
     best_S = None
     best_c = None
     # Enumerate all supports up to size k_max
@@ -76,15 +76,13 @@ def test_bb_vs_bruteforce():
     print("Brute force support:", best_S_bf)
 
     # Compare costs with tolerance
-    if best_cost_bb[2] == float('inf') and best_cost_bf[2] != float('inf'):
+    if best_cost_bb[0] == float('inf') and best_cost_bf[0] != float('inf'):
         # BB didn't find a feasible candidate, fallback to L1 -> we'll check support equality
         # but we expect BB to find it.
         pass
     else:
         assert abs(best_cost_bb[0] - best_cost_bf[0]) < 1e-6, f"R differs: {best_cost_bb[0]} vs {best_cost_bf[0]}"
         assert best_cost_bb[1] == best_cost_bf[1], f"k differs: {best_cost_bb[1]} vs {best_cost_bf[1]}"
-        if best_cost_bb[2] != float('inf') and best_cost_bf[2] != float('inf'):
-            assert abs(best_cost_bb[2] - best_cost_bf[2]) < 1e-6, f"gap differs: {best_cost_bb[2]} vs {best_cost_bf[2]}"
 
     # Check supports and coefficients
     assert best_S_bb == best_S_bf, f"Supports differ: {best_S_bb} vs {best_S_bf}"

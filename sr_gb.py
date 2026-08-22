@@ -579,7 +579,7 @@ def evaluate_support(S, V_null, d, max_denom, eps, sigma_estimate, Phi, N):
         S_list = list(S)
         best_S_star = None
         best_c = None
-        best_cost = (float('inf'), float('inf'), float('inf'))
+        best_cost = (float('inf'), float('inf'))
         for r in range(1, len(S_list)+1):
             for combo in combinations(S_list, r):
                 S_star = set(combo)
@@ -601,8 +601,7 @@ def evaluate_support(S, V_null, d, max_denom, eps, sigma_estimate, Phi, N):
                     if R == float('inf'):
                         continue
                     k = len(S_star)
-                    gap = sa2[-1] if len(sa2) > 0 else 0.0
-                    cost = (R, k, gap)
+                    cost = (R, k)
                     if cost < best_cost:
                         best_cost = cost
                         best_S_star = S_star
@@ -633,8 +632,7 @@ def evaluate_support(S, V_null, d, max_denom, eps, sigma_estimate, Phi, N):
             # dominance-safe -- see comment above.
             return {'status': 'SOFT_INFEASIBLE'}
         k = len(S)
-        gap = sa[-1] if len(sa) > 0 else 0.0
-        cost = (R, k, gap)
+        cost = (R, k)
         return {'status': 'FEASIBLE', 'cost': cost, 'c': c_cand}
 
 # ============================================================================
@@ -668,7 +666,7 @@ def bb_search(V_null, d, k_max, max_denom, eps, sigma_estimate, Phi, N, M,
                  nodes_pruned_lb=0, nodes_pruned_dominance=0,
                  nodes_not_pushed_lb=0,
                  beam_ub_cost=None, final_ub_cost=None)
-    UB = (float('inf'), float('inf'), float('inf'))
+    UB = (float('inf'), float('inf'))
     best_S = None
     best_c = None
     # Bucketed by |inf_S| rather than a single flat set: S.issubset(inf_S)
