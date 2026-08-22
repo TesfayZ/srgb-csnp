@@ -17,7 +17,6 @@ The framework combines:
 
    * smallest **rationality score** (coefficient simplicity),
    * then smallest **sparsity** (number of active monomials),
-   * then largest spectral stability gap as a tie-breaker.
 5. **Noise-tolerant rational snap-rounding** to recover exact rational coefficients.
 6. **Reduced Gröbner basis computation** over **ℚ** to obtain a canonical generating set of the inferred polynomial ideal.
 
